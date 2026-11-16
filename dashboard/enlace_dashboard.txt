@@ -1,0 +1,4 @@
+Dashboard publicado:
+https://adb-7405617881522784.4.azuredatabricks.net/dashboardsv3/01f1e176165519ad99d886c5d6549115/published?o=7405617881522784
+Capturas: dashboard/dashboard.png
+

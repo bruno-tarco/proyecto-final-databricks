@@ -1,0 +1,802 @@
+[
+  {
+    "productId": "P001",
+    "productName": "Laptops modelo A774",
+    "category": "Tecnología",
+    "subCategory": "Laptops",
+    "listPrice": 2808.87,
+    "unitCost": 1999.79,
+    "supplier": "OfiMax",
+    "active": false
+  },
+  {
+    "productId": "P002",
+    "productName": "Laptops modelo B324",
+    "category": "Tecnología",
+    "subCategory": "Laptops",
+    "listPrice": 2462.46,
+    "unitCost": 1827.35,
+    "supplier": "TecnoPerú",
+    "active": true
+  },
+  {
+    "productId": "P003",
+    "productName": "Laptops modelo C355",
+    "category": "Tecnología",
+    "subCategory": "Laptops",
+    "listPrice": 2176.77,
+    "unitCost": 1415.4,
+    "supplier": "TecnoPerú",
+    "active": true
+  },
+  {
+    "productId": "P004",
+    "productName": "Laptops modelo D304",
+    "category": "Tecnología",
+    "subCategory": "Laptops",
+    "listPrice": 3268.98,
+    "unitCost": 2672.92,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P005",
+    "productName": "Laptops modelo E864",
+    "category": "Tecnología",
+    "subCategory": "Laptops",
+    "listPrice": 2443.09,
+    "unitCost": 1588.23,
+    "supplier": "TecnoPerú",
+    "active": true
+  },
+  {
+    "productId": "P006",
+    "productName": "Laptops modelo F204",
+    "category": "Tecnología",
+    "subCategory": "Laptops",
+    "listPrice": 3186.4,
+    "unitCost": 2310.11,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P007",
+    "productName": "Laptops modelo G278",
+    "category": "Tecnología",
+    "subCategory": "Laptops",
+    "listPrice": 4457.69,
+    "unitCost": 2664.74,
+    "supplier": "Andina SAC",
+    "active": true
+  },
+  {
+    "productId": "P008",
+    "productName": "Laptops modelo H947",
+    "category": "Tecnología",
+    "subCategory": "Laptops",
+    "listPrice": 3491.08,
+    "unitCost": 2679.65,
+    "supplier": "TecnoPerú",
+    "active": true
+  },
+  {
+    "productId": "P009",
+    "productName": "Celulares modelo A140",
+    "category": "Tecnología",
+    "subCategory": "Celulares",
+    "listPrice": 766.35,
+    "unitCost": 617.78,
+    "supplier": "TecnoPerú",
+    "active": true
+  },
+  {
+    "productId": "P010",
+    "productName": "Celulares modelo B246",
+    "category": "Tecnología",
+    "subCategory": "Celulares",
+    "listPrice": 2935.33,
+    "unitCost": 2081.22,
+    "supplier": "Distribuidora Inca",
+    "active": true
+  },
+  {
+    "productId": "P011",
+    "productName": "Celulares modelo C534",
+    "category": "Tecnología",
+    "subCategory": "Celulares",
+    "listPrice": 1748.12,
+    "unitCost": 1151.38,
+    "supplier": "Distribuidora Inca",
+    "active": true
+  },
+  {
+    "productId": "P012",
+    "productName": "Celulares modelo D102",
+    "category": "Tecnología",
+    "subCategory": "Celulares",
+    "listPrice": 1934.65,
+    "unitCost": 1578.25,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P013",
+    "productName": "Celulares modelo E932",
+    "category": "Tecnología",
+    "subCategory": "Celulares",
+    "listPrice": 3188.93,
+    "unitCost": 2676.76,
+    "supplier": "Andina SAC",
+    "active": true
+  },
+  {
+    "productId": "P014",
+    "productName": "Celulares modelo F982",
+    "category": "Tecnología",
+    "subCategory": "Celulares",
+    "listPrice": 2175.75,
+    "unitCost": 1341.06,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P015",
+    "productName": "Celulares modelo G513",
+    "category": "Tecnología",
+    "subCategory": "Celulares",
+    "listPrice": 695.55,
+    "unitCost": 584.35,
+    "supplier": "Distribuidora Inca",
+    "active": true
+  },
+  {
+    "productId": "P016",
+    "productName": "Celulares modelo H963",
+    "category": "Tecnología",
+    "subCategory": "Celulares",
+    "listPrice": 1804.74,
+    "unitCost": 1401.88,
+    "supplier": "Andina SAC",
+    "active": true
+  },
+  {
+    "productId": "P017",
+    "productName": "Accesorios modelo A353",
+    "category": "Tecnología",
+    "subCategory": "Accesorios",
+    "listPrice": 33.93,
+    "unitCost": 28.0,
+    "supplier": "Mueblería Norte",
+    "active": true
+  },
+  {
+    "productId": "P018",
+    "productName": "Accesorios modelo B432",
+    "category": "Tecnología",
+    "subCategory": "Accesorios",
+    "listPrice": 62.41,
+    "unitCost": 46.61,
+    "supplier": "Andina SAC",
+    "active": true
+  },
+  {
+    "productId": "P019",
+    "productName": "Accesorios modelo C246",
+    "category": "Tecnología",
+    "subCategory": "Accesorios",
+    "listPrice": 227.14,
+    "unitCost": 175.9,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P020",
+    "productName": "Accesorios modelo D171",
+    "category": "Tecnología",
+    "subCategory": "Accesorios",
+    "listPrice": 35.98,
+    "unitCost": 22.98,
+    "supplier": "TecnoPerú",
+    "active": true
+  },
+  {
+    "productId": "P021",
+    "productName": "Accesorios modelo E127",
+    "category": "Tecnología",
+    "subCategory": "Accesorios",
+    "listPrice": 229.68,
+    "unitCost": 158.17,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P022",
+    "productName": "Accesorios modelo F693",
+    "category": "Tecnología",
+    "subCategory": "Accesorios",
+    "listPrice": 183.06,
+    "unitCost": 108.19,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P023",
+    "productName": "Accesorios modelo G382",
+    "category": "Tecnología",
+    "subCategory": "Accesorios",
+    "listPrice": 79.87,
+    "unitCost": 56.99,
+    "supplier": "Andina SAC",
+    "active": true
+  },
+  {
+    "productId": "P024",
+    "productName": "Accesorios modelo H993",
+    "category": "Tecnología",
+    "subCategory": "Accesorios",
+    "listPrice": 82.59,
+    "unitCost": 62.42,
+    "supplier": "Distribuidora Inca",
+    "active": true
+  },
+  {
+    "productId": "P025",
+    "productName": "Monitores modelo A910",
+    "category": "Tecnología",
+    "subCategory": "Monitores",
+    "listPrice": 655.84,
+    "unitCost": 537.8,
+    "supplier": "Andina SAC",
+    "active": true
+  },
+  {
+    "productId": "P026",
+    "productName": "Monitores modelo B125",
+    "category": "Tecnología",
+    "subCategory": "Monitores",
+    "listPrice": 1203.87,
+    "unitCost": 831.06,
+    "supplier": "Mueblería Norte",
+    "active": true
+  },
+  {
+    "productId": "P027",
+    "productName": "Monitores modelo C459",
+    "category": "Tecnología",
+    "subCategory": "Monitores",
+    "listPrice": 1056.85,
+    "unitCost": 683.68,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P028",
+    "productName": "Monitores modelo D912",
+    "category": "Tecnología",
+    "subCategory": "Monitores",
+    "listPrice": 1457.84,
+    "unitCost": 1208.0,
+    "supplier": "Mueblería Norte",
+    "active": true
+  },
+  {
+    "productId": "P029",
+    "productName": "Monitores modelo E812",
+    "category": "Tecnología",
+    "subCategory": "Monitores",
+    "listPrice": 1367.17,
+    "unitCost": 995.57,
+    "supplier": "Distribuidora Inca",
+    "active": true
+  },
+  {
+    "productId": "P030",
+    "productName": "Monitores modelo F329",
+    "category": "Tecnología",
+    "subCategory": "Monitores",
+    "listPrice": 639.41,
+    "unitCost": 412.4,
+    "supplier": "Mueblería Norte",
+    "active": true
+  },
+  {
+    "productId": "P031",
+    "productName": "Monitores modelo G559",
+    "category": "Tecnología",
+    "subCategory": "Monitores",
+    "listPrice": 542.24,
+    "unitCost": 343.76,
+    "supplier": "Distribuidora Inca",
+    "active": true
+  },
+  {
+    "productId": "P032",
+    "productName": "Monitores modelo H464",
+    "category": "Tecnología",
+    "subCategory": "Monitores",
+    "listPrice": 470.42,
+    "unitCost": 344.68,
+    "supplier": "Distribuidora Inca",
+    "active": true
+  },
+  {
+    "productId": "P033",
+    "productName": "Sillas modelo A248",
+    "category": "Muebles",
+    "subCategory": "Sillas",
+    "listPrice": 285.8,
+    "unitCost": 237.91,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P034",
+    "productName": "Sillas modelo B928",
+    "category": "Muebles",
+    "subCategory": "Sillas",
+    "listPrice": 324.04,
+    "unitCost": 258.66,
+    "supplier": "Distribuidora Inca",
+    "active": true
+  },
+  {
+    "productId": "P035",
+    "productName": "Sillas modelo C788",
+    "category": "Muebles",
+    "subCategory": "Sillas",
+    "listPrice": 446.52,
+    "unitCost": 344.66,
+    "supplier": "Andina SAC",
+    "active": true
+  },
+  {
+    "productId": "P036",
+    "productName": "Sillas modelo D982",
+    "category": "Muebles",
+    "subCategory": "Sillas",
+    "listPrice": 780.06,
+    "unitCost": 573.84,
+    "supplier": "Mueblería Norte",
+    "active": true
+  },
+  {
+    "productId": "P037",
+    "productName": "Sillas modelo E592",
+    "category": "Muebles",
+    "subCategory": "Sillas",
+    "listPrice": 802.21,
+    "unitCost": 468.82,
+    "supplier": "TecnoPerú",
+    "active": true
+  },
+  {
+    "productId": "P038",
+    "productName": "Sillas modelo F593",
+    "category": "Muebles",
+    "subCategory": "Sillas",
+    "listPrice": 335.06,
+    "unitCost": 192.66,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P039",
+    "productName": "Sillas modelo G677",
+    "category": "Muebles",
+    "subCategory": "Sillas",
+    "listPrice": 595.48,
+    "unitCost": 400.49,
+    "supplier": "TecnoPerú",
+    "active": true
+  },
+  {
+    "productId": "P040",
+    "productName": "Sillas modelo H984",
+    "category": "Muebles",
+    "subCategory": "Sillas",
+    "listPrice": 407.62,
+    "unitCost": 228.17,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P041",
+    "productName": "Escritorios modelo A157",
+    "category": "Muebles",
+    "subCategory": "Escritorios",
+    "listPrice": 1493.9,
+    "unitCost": 925.8,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P042",
+    "productName": "Escritorios modelo B746",
+    "category": "Muebles",
+    "subCategory": "Escritorios",
+    "listPrice": 480.99,
+    "unitCost": 398.78,
+    "supplier": "Mueblería Norte",
+    "active": true
+  },
+  {
+    "productId": "P043",
+    "productName": "Escritorios modelo C900",
+    "category": "Muebles",
+    "subCategory": "Escritorios",
+    "listPrice": 1518.86,
+    "unitCost": 986.2,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P044",
+    "productName": "Escritorios modelo D502",
+    "category": "Muebles",
+    "subCategory": "Escritorios",
+    "listPrice": 1281.16,
+    "unitCost": 881.48,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P045",
+    "productName": "Escritorios modelo E711",
+    "category": "Muebles",
+    "subCategory": "Escritorios",
+    "listPrice": 1589.31,
+    "unitCost": 909.01,
+    "supplier": "Distribuidora Inca",
+    "active": true
+  },
+  {
+    "productId": "P046",
+    "productName": "Escritorios modelo F819",
+    "category": "Muebles",
+    "subCategory": "Escritorios",
+    "listPrice": 1299.87,
+    "unitCost": 902.86,
+    "supplier": "Andina SAC",
+    "active": true
+  },
+  {
+    "productId": "P047",
+    "productName": "Escritorios modelo G684",
+    "category": "Muebles",
+    "subCategory": "Escritorios",
+    "listPrice": 1026.82,
+    "unitCost": 864.34,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P048",
+    "productName": "Escritorios modelo H901",
+    "category": "Muebles",
+    "subCategory": "Escritorios",
+    "listPrice": 835.14,
+    "unitCost": 560.16,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P049",
+    "productName": "Estantes modelo A925",
+    "category": "Muebles",
+    "subCategory": "Estantes",
+    "listPrice": 521.62,
+    "unitCost": 407.93,
+    "supplier": "Mueblería Norte",
+    "active": true
+  },
+  {
+    "productId": "P050",
+    "productName": "Estantes modelo B133",
+    "category": "Muebles",
+    "subCategory": "Estantes",
+    "listPrice": 469.52,
+    "unitCost": 369.94,
+    "supplier": "OfiMax",
+    "active": false
+  },
+  {
+    "productId": "P051",
+    "productName": "Estantes modelo C906",
+    "category": "Muebles",
+    "subCategory": "Estantes",
+    "listPrice": 377.28,
+    "unitCost": 240.36,
+    "supplier": "Andina SAC",
+    "active": true
+  },
+  {
+    "productId": "P052",
+    "productName": "Estantes modelo D218",
+    "category": "Muebles",
+    "subCategory": "Estantes",
+    "listPrice": 226.96,
+    "unitCost": 126.43,
+    "supplier": "Mueblería Norte",
+    "active": true
+  },
+  {
+    "productId": "P053",
+    "productName": "Estantes modelo E746",
+    "category": "Muebles",
+    "subCategory": "Estantes",
+    "listPrice": 587.52,
+    "unitCost": 435.26,
+    "supplier": "Andina SAC",
+    "active": true
+  },
+  {
+    "productId": "P054",
+    "productName": "Estantes modelo F575",
+    "category": "Muebles",
+    "subCategory": "Estantes",
+    "listPrice": 318.85,
+    "unitCost": 235.97,
+    "supplier": "TecnoPerú",
+    "active": true
+  },
+  {
+    "productId": "P055",
+    "productName": "Estantes modelo G468",
+    "category": "Muebles",
+    "subCategory": "Estantes",
+    "listPrice": 333.74,
+    "unitCost": 213.83,
+    "supplier": "Andina SAC",
+    "active": true
+  },
+  {
+    "productId": "P056",
+    "productName": "Estantes modelo H748",
+    "category": "Muebles",
+    "subCategory": "Estantes",
+    "listPrice": 597.32,
+    "unitCost": 444.43,
+    "supplier": "Mueblería Norte",
+    "active": true
+  },
+  {
+    "productId": "P057",
+    "productName": "Papelería modelo A524",
+    "category": "Oficina",
+    "subCategory": "Papelería",
+    "listPrice": 52.17,
+    "unitCost": 29.45,
+    "supplier": "Distribuidora Inca",
+    "active": true
+  },
+  {
+    "productId": "P058",
+    "productName": "Papelería modelo B869",
+    "category": "Oficina",
+    "subCategory": "Papelería",
+    "listPrice": 38.91,
+    "unitCost": 21.57,
+    "supplier": "Mueblería Norte",
+    "active": true
+  },
+  {
+    "productId": "P059",
+    "productName": "Papelería modelo C380",
+    "category": "Oficina",
+    "subCategory": "Papelería",
+    "listPrice": 12.97,
+    "unitCost": 8.46,
+    "supplier": "Mueblería Norte",
+    "active": true
+  },
+  {
+    "productId": "P060",
+    "productName": "Papelería modelo D895",
+    "category": "Oficina",
+    "subCategory": "Papelería",
+    "listPrice": 53.94,
+    "unitCost": 33.2,
+    "supplier": "Distribuidora Inca",
+    "active": true
+  },
+  {
+    "productId": "P061",
+    "productName": "Papelería modelo E306",
+    "category": "Oficina",
+    "subCategory": "Papelería",
+    "listPrice": 28.25,
+    "unitCost": 20.01,
+    "supplier": "TecnoPerú",
+    "active": true
+  },
+  {
+    "productId": "P062",
+    "productName": "Papelería modelo F572",
+    "category": "Oficina",
+    "subCategory": "Papelería",
+    "listPrice": 23.5,
+    "unitCost": 13.79,
+    "supplier": "Distribuidora Inca",
+    "active": true
+  },
+  {
+    "productId": "P063",
+    "productName": "Papelería modelo G949",
+    "category": "Oficina",
+    "subCategory": "Papelería",
+    "listPrice": 43.39,
+    "unitCost": 36.56,
+    "supplier": "TecnoPerú",
+    "active": false
+  },
+  {
+    "productId": "P064",
+    "productName": "Papelería modelo H317",
+    "category": "Oficina",
+    "subCategory": "Papelería",
+    "listPrice": 21.29,
+    "unitCost": 16.19,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P065",
+    "productName": "Archivadores modelo A401",
+    "category": "Oficina",
+    "subCategory": "Archivadores",
+    "listPrice": 109.38,
+    "unitCost": 61.16,
+    "supplier": "Andina SAC",
+    "active": true
+  },
+  {
+    "productId": "P066",
+    "productName": "Archivadores modelo B560",
+    "category": "Oficina",
+    "subCategory": "Archivadores",
+    "listPrice": 93.87,
+    "unitCost": 52.07,
+    "supplier": "TecnoPerú",
+    "active": true
+  },
+  {
+    "productId": "P067",
+    "productName": "Archivadores modelo C222",
+    "category": "Oficina",
+    "subCategory": "Archivadores",
+    "listPrice": 94.15,
+    "unitCost": 74.96,
+    "supplier": "Distribuidora Inca",
+    "active": true
+  },
+  {
+    "productId": "P068",
+    "productName": "Archivadores modelo D778",
+    "category": "Oficina",
+    "subCategory": "Archivadores",
+    "listPrice": 149.28,
+    "unitCost": 89.56,
+    "supplier": "Mueblería Norte",
+    "active": true
+  },
+  {
+    "productId": "P069",
+    "productName": "Archivadores modelo E928",
+    "category": "Oficina",
+    "subCategory": "Archivadores",
+    "listPrice": 154.01,
+    "unitCost": 123.94,
+    "supplier": "Andina SAC",
+    "active": true
+  },
+  {
+    "productId": "P070",
+    "productName": "Archivadores modelo F366",
+    "category": "Oficina",
+    "subCategory": "Archivadores",
+    "listPrice": 25.06,
+    "unitCost": 17.53,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P071",
+    "productName": "Archivadores modelo G979",
+    "category": "Oficina",
+    "subCategory": "Archivadores",
+    "listPrice": 39.31,
+    "unitCost": 30.64,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P072",
+    "productName": "Archivadores modelo H484",
+    "category": "Oficina",
+    "subCategory": "Archivadores",
+    "listPrice": 40.39,
+    "unitCost": 29.23,
+    "supplier": "Andina SAC",
+    "active": true
+  },
+  {
+    "productId": "P073",
+    "productName": "Impresoras modelo A426",
+    "category": "Oficina",
+    "subCategory": "Impresoras",
+    "listPrice": 637.65,
+    "unitCost": 435.93,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P074",
+    "productName": "Impresoras modelo B841",
+    "category": "Oficina",
+    "subCategory": "Impresoras",
+    "listPrice": 730.36,
+    "unitCost": 489.82,
+    "supplier": "Distribuidora Inca",
+    "active": true
+  },
+  {
+    "productId": "P075",
+    "productName": "Impresoras modelo C454",
+    "category": "Oficina",
+    "subCategory": "Impresoras",
+    "listPrice": 1395.66,
+    "unitCost": 812.5,
+    "supplier": "TecnoPerú",
+    "active": true
+  },
+  {
+    "productId": "P076",
+    "productName": "Impresoras modelo D210",
+    "category": "Oficina",
+    "subCategory": "Impresoras",
+    "listPrice": 919.05,
+    "unitCost": 612.24,
+    "supplier": "Mueblería Norte",
+    "active": true
+  },
+  {
+    "productId": "P077",
+    "productName": "Impresoras modelo E830",
+    "category": "Oficina",
+    "subCategory": "Impresoras",
+    "listPrice": 1048.91,
+    "unitCost": 660.84,
+    "supplier": "OfiMax",
+    "active": true
+  },
+  {
+    "productId": "P078",
+    "productName": "Impresoras modelo F747",
+    "category": "Oficina",
+    "subCategory": "Impresoras",
+    "listPrice": 1350.41,
+    "unitCost": 1142.93,
+    "supplier": "TecnoPerú",
+    "active": true
+  },
+  {
+    "productId": "P079",
+    "productName": "Impresoras modelo G315",
+    "category": "Oficina",
+    "subCategory": "Impresoras",
+    "listPrice": 614.32,
+    "unitCost": 479.97,
+    "supplier": "TecnoPerú",
+    "active": true
+  },
+  {
+    "productId": "P080",
+    "productName": "Impresoras modelo H821",
+    "category": "Oficina",
+    "subCategory": "Impresoras",
+    "listPrice": 468.49,
+    "unitCost": 326.84,
+    "supplier": "Distribuidora Inca",
+    "active": true
+  }
+]

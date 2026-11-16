@@ -1,0 +1,576 @@
+{
+  "datasets": [
+    {
+      "name": "ds_mensual",
+      "displayName": "Ventas mensuales por categoría",
+      "queryLines": [
+        "SELECT periodo, anio, mes, categoria, ventas_netas, utilidad, margen_pct, crecimiento_mom_pct FROM catalog_retail_prod.golden.ventas_mensuales_categoria"
+      ]
+    },
+    {
+      "name": "ds_kpi",
+      "displayName": "KPIs región y canal",
+      "queryLines": [
+        "SELECT region, canal, ordenes, clientes_unicos, ventas_netas, utilidad, dias_envio_promedio, pct_envio_a_tiempo FROM catalog_retail_prod.golden.kpi_region_canal"
+      ]
+    },
+    {
+      "name": "ds_clientes",
+      "displayName": "Ranking clientes",
+      "queryLines": [
+        "SELECT ranking_general, cliente_id, nombre, segmento, region, ordenes, ventas_netas, tipo_cliente, dias_sin_comprar FROM catalog_retail_prod.golden.ranking_clientes"
+      ]
+    },
+    {
+      "name": "ds_productos",
+      "displayName": "Desempeño productos",
+      "queryLines": [
+        "SELECT categoria, subcategoria, nombre_producto, ventas_netas, utilidad, margen_pct, participacion_categoria_pct, ranking_categoria FROM catalog_retail_prod.golden.desempeno_productos"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "name": "pagina_principal",
+      "displayName": "Resumen comercial",
+      "layout": [
+        {
+          "widget": {
+            "name": "titulo",
+            "multilineTextboxSpec": {
+              "lines": [
+                "# Retail Medallion · Dashboard Comercial\n",
+                "Fuente: `catalog_retail_prod.golden`, actualizado por el workflow WF_RETAIL_MEDALLION"
+              ]
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 0,
+            "width": 6,
+            "height": 2
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi_ventas",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_kpi",
+                  "fields": [
+                    {
+                      "name": "sum(ventas_netas)",
+                      "expression": "SUM(`ventas_netas`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "sum(ventas_netas)",
+                  "displayName": "Ventas netas (S/)"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Ventas netas (S/)"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 2,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi_utilidad",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_kpi",
+                  "fields": [
+                    {
+                      "name": "sum(utilidad)",
+                      "expression": "SUM(`utilidad`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "sum(utilidad)",
+                  "displayName": "Utilidad (S/)"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Utilidad (S/)"
+              }
+            }
+          },
+          "position": {
+            "x": 2,
+            "y": 2,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "kpi_ordenes",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_kpi",
+                  "fields": [
+                    {
+                      "name": "sum(ordenes)",
+                      "expression": "SUM(`ordenes`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 2,
+              "widgetType": "counter",
+              "encodings": {
+                "value": {
+                  "fieldName": "sum(ordenes)",
+                  "displayName": "Órdenes"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Órdenes"
+              }
+            }
+          },
+          "position": {
+            "x": 4,
+            "y": 2,
+            "width": 2,
+            "height": 3
+          }
+        },
+        {
+          "widget": {
+            "name": "evolucion",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_mensual",
+                  "fields": [
+                    {
+                      "name": "periodo",
+                      "expression": "`periodo`"
+                    },
+                    {
+                      "name": "sum(ventas_netas)",
+                      "expression": "SUM(`ventas_netas`)"
+                    },
+                    {
+                      "name": "categoria",
+                      "expression": "`categoria`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "line",
+              "encodings": {
+                "x": {
+                  "fieldName": "periodo",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "periodo"
+                },
+                "y": {
+                  "fieldName": "sum(ventas_netas)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "ventas_netas"
+                },
+                "color": {
+                  "fieldName": "categoria",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "categoria"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Evolución mensual de ventas por categoría"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 5,
+            "width": 6,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "region_canal",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_kpi",
+                  "fields": [
+                    {
+                      "name": "region",
+                      "expression": "`region`"
+                    },
+                    {
+                      "name": "sum(ventas_netas)",
+                      "expression": "SUM(`ventas_netas`)"
+                    },
+                    {
+                      "name": "canal",
+                      "expression": "`canal`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "region",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "region"
+                },
+                "y": {
+                  "fieldName": "sum(ventas_netas)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "ventas_netas"
+                },
+                "color": {
+                  "fieldName": "canal",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "canal"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Ventas por región y canal"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 11,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "envios",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_kpi",
+                  "fields": [
+                    {
+                      "name": "canal",
+                      "expression": "`canal`"
+                    },
+                    {
+                      "name": "avg(pct_envio_a_tiempo)",
+                      "expression": "AVG(`pct_envio_a_tiempo`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "canal",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "canal"
+                },
+                "y": {
+                  "fieldName": "avg(pct_envio_a_tiempo)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "pct_envio_a_tiempo"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "% envíos a tiempo por canal"
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 11,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "tipo_cliente",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_clientes",
+                  "fields": [
+                    {
+                      "name": "tipo_cliente",
+                      "expression": "`tipo_cliente`"
+                    },
+                    {
+                      "name": "sum(ventas_netas)",
+                      "expression": "SUM(`ventas_netas`)"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "tipo_cliente",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "tipo_cliente"
+                },
+                "y": {
+                  "fieldName": "sum(ventas_netas)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "ventas_netas"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Ventas por tipo de cliente"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 17,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "categoria",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_productos",
+                  "fields": [
+                    {
+                      "name": "subcategoria",
+                      "expression": "`subcategoria`"
+                    },
+                    {
+                      "name": "sum(ventas_netas)",
+                      "expression": "SUM(`ventas_netas`)"
+                    },
+                    {
+                      "name": "categoria",
+                      "expression": "`categoria`"
+                    }
+                  ],
+                  "disaggregated": false
+                }
+              }
+            ],
+            "spec": {
+              "version": 3,
+              "widgetType": "bar",
+              "encodings": {
+                "x": {
+                  "fieldName": "subcategoria",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "subcategoria"
+                },
+                "y": {
+                  "fieldName": "sum(ventas_netas)",
+                  "scale": {
+                    "type": "quantitative"
+                  },
+                  "displayName": "ventas_netas"
+                },
+                "color": {
+                  "fieldName": "categoria",
+                  "scale": {
+                    "type": "categorical"
+                  },
+                  "displayName": "categoria"
+                }
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Ventas por subcategoría"
+              }
+            }
+          },
+          "position": {
+            "x": 3,
+            "y": 17,
+            "width": 3,
+            "height": 6
+          }
+        },
+        {
+          "widget": {
+            "name": "top_clientes",
+            "queries": [
+              {
+                "name": "main_query",
+                "query": {
+                  "datasetName": "ds_clientes",
+                  "fields": [
+                    {
+                      "name": "ranking_general",
+                      "expression": "`ranking_general`"
+                    },
+                    {
+                      "name": "nombre",
+                      "expression": "`nombre`"
+                    },
+                    {
+                      "name": "segmento",
+                      "expression": "`segmento`"
+                    },
+                    {
+                      "name": "region",
+                      "expression": "`region`"
+                    },
+                    {
+                      "name": "ordenes",
+                      "expression": "`ordenes`"
+                    },
+                    {
+                      "name": "ventas_netas",
+                      "expression": "`ventas_netas`"
+                    },
+                    {
+                      "name": "tipo_cliente",
+                      "expression": "`tipo_cliente`"
+                    }
+                  ],
+                  "disaggregated": true
+                }
+              }
+            ],
+            "spec": {
+              "version": 1,
+              "widgetType": "table",
+              "encodings": {
+                "columns": [
+                  {
+                    "fieldName": "ranking_general",
+                    "displayName": "ranking_general"
+                  },
+                  {
+                    "fieldName": "nombre",
+                    "displayName": "nombre"
+                  },
+                  {
+                    "fieldName": "segmento",
+                    "displayName": "segmento"
+                  },
+                  {
+                    "fieldName": "region",
+                    "displayName": "region"
+                  },
+                  {
+                    "fieldName": "ordenes",
+                    "displayName": "ordenes"
+                  },
+                  {
+                    "fieldName": "ventas_netas",
+                    "displayName": "ventas_netas"
+                  },
+                  {
+                    "fieldName": "tipo_cliente",
+                    "displayName": "tipo_cliente"
+                  }
+                ]
+              },
+              "frame": {
+                "showTitle": true,
+                "title": "Ranking de clientes"
+              }
+            }
+          },
+          "position": {
+            "x": 0,
+            "y": 23,
+            "width": 6,
+            "height": 8
+          }
+        }
+      ],
+      "pageType": "PAGE_TYPE_CANVAS"
+    }
+  ],
+  "uiSettings": {
+    "theme": {
+      "widgetHeaderAlignment": "ALIGNMENT_UNSPECIFIED"
+    }
+  }
+}

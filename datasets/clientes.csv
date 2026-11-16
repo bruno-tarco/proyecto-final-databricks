@@ -1,0 +1,616 @@
+cliente_id,nombre,segmento,ciudad,region,fecha_registro,email
+C0462,María Salazar,Pequeña Empresa,Arequipa,Sierra,2023-08-19,maría.salazar462@correo.pe
+C0258,María Vargas,Consumidor,Pucallpa,Selva,2023-06-02,maría.vargas258@correo.pe
+C0162,Sofía García,Pequeña Empresa,Lima,Costa,2021-02-26,sofía.garcía162@correo.pe
+C0486,Pedro Quispe,Consumidor,Cajamarca,Sierra,2023-08-06,pedro.quispe486@correo.pe
+C0212,Lucía Torres,Pequeña Empresa,  ICA ,Costa,2021-08-26,lucía.torres212@correo.pe
+C0405,Jorge Ramos,Pequeña Empresa,Tarapoto,Selva,2023-11-06,jorge.ramos405@correo.pe
+C0456,José Quispe,Consumidor,Arequipa,Sierra,2021-12-12,josé.quispe456@correo.pe
+C0407,Rosa Chávez,Consumidor,Iquitos,Selva,2021-02-25,rosa.chávez407@correo.pe
+C0022,Pedro Rojas,Consumidor,Tarapoto,Selva,2023-12-01,pedro.rojas22@correo.pe
+C0429,Raúl Quispe,,Cusco,Sierra,2023-01-21,raúl.quispe429@correo.pe
+C0236,Rosa Salazar,Consumidor,Trujillo,Costa,2023-09-29,
+C0597,Luis Salazar,Consumidor,Tarapoto,Selva,2021-03-13,luis.salazar597@correo.pe
+C0337,Daniela Huamán,Consumidor,  PUNO ,Sierra,2022-02-18,daniela.huamán337@correo.pe
+C0032,Jorge Vargas,Corporativo,Cusco,Sierra,2022-10-05,jorge.vargas32@correo.pe
+C0284,Luis Rojas,Consumidor,  TARAPOTO ,Selva,2023-08-26,luis.rojas284@correo.pe
+C0172,María Ríos,Pequeña Empresa,Puno,Sierra,2022-02-03,maría.ríos172@correo.pe
+C0080,Carla Salazar,Consumidor,Tarapoto,Selva,2021-10-22,carla.salazar80@correo.pe
+C0241,Luis Quispe,Pequeña Empresa,Huancayo,Sierra,2023-07-28,luis.quispe241@correo.pe
+C0227,Jorge Quispe,Pequeña Empresa,Arequipa,Sierra,2021-02-23,jorge.quispe227@correo.pe
+C0195,Pedro Mendoza,Consumidor,Tarapoto,Selva,2022-06-28,pedro.mendoza195@correo.pe
+C0378,Sofía Paredes,Pequeña Empresa,  CAJAMARCA ,Sierra,2023-01-19,sofía.paredes378@correo.pe
+C0046,Lucía Huamán,Corporativo,Huancayo,Sierra,2023-01-06,lucía.huamán46@correo.pe
+C0323,Ana Quispe,Corporativo,Puno,Sierra,2022-06-04,ana.quispe323@correo.pe
+C0234,Luis Paredes,Consumidor,Tarapoto,Selva,2022-03-07,luis.paredes234@correo.pe
+C0502,Valeria Ríos,Consumidor,Cajamarca,Sierra,2022-03-30,valeria.ríos502@correo.pe
+C0083,Miguel García,Corporativo,Iquitos,Selva,2023-11-20,miguel.garcía83@correo.pe
+C0458,María Mendoza,Corporativo,Ica,Costa,2022-08-22,maría.mendoza458@correo.pe
+C0510,Jorge Salazar,Corporativo,Chiclayo,Costa,2023-07-21,jorge.salazar510@correo.pe
+C0230,Carla Torres,Consumidor,Piura,Costa,2022-06-30,carla.torres230@correo.pe
+C0126,Carlos Paredes,Pequeña Empresa,Pucallpa,Selva,2023-03-09,carlos.paredes126@correo.pe
+C0191,Jorge Torres,Consumidor,Tarapoto,Selva,2023-09-29,jorge.torres191@correo.pe
+C0124,Luis Chávez,Pequeña Empresa,  PUCALLPA ,Selva,2022-09-21,luis.chávez124@correo.pe
+C0437,Raúl Salazar,Corporativo,Piura,Costa,2022-07-20,raúl.salazar437@correo.pe
+C0596,Jorge Paredes,Consumidor,Iquitos,Selva,2021-08-22,jorge.paredes596@correo.pe
+C0518,Raúl Rojas,Corporativo,Pucallpa,Selva,2023-08-25,raúl.rojas518@correo.pe
+C0491,Lucía Mendoza,,Ica,Costa,2023-05-17,lucía.mendoza491@correo.pe
+C0257,Valeria Ramos,Consumidor,Tarapoto,Selva,2024-03-07,valeria.ramos257@correo.pe
+C0314,Miguel Quispe,Pequeña Empresa,Chiclayo,Costa,2022-09-27,miguel.quispe314@correo.pe
+C0371,Miguel Salazar,Pequeña Empresa,Trujillo,Costa,2022-10-15,miguel.salazar371@correo.pe
+C0481,Lucía Rojas,Consumidor,Chiclayo,Costa,2022-05-30,lucía.rojas481@correo.pe
+C0333,Sofía Flores,Corporativo,Cusco,Sierra,2024-03-27,sofía.flores333@correo.pe
+C0367,Ana Huamán,Consumidor,Cajamarca,Sierra,2022-04-18,ana.huamán367@correo.pe
+C0304,María Vargas,Pequeña Empresa,Puno,Sierra,2023-11-08,maría.vargas304@correo.pe
+C0363,Miguel Ríos,Corporativo,Lima,Costa,2021-03-04,miguel.ríos363@correo.pe
+C0345,Valeria Mendoza,Consumidor,Iquitos,Selva,2023-05-27,
+C0574,Rosa Castillo,Consumidor,Iquitos,Selva,2023-11-23,rosa.castillo574@correo.pe
+C0250,Jorge Mendoza,Corporativo,Pucallpa,Selva,2023-12-11,jorge.mendoza250@correo.pe
+C0049,Jorge Quispe,Consumidor,Cusco,Sierra,2023-12-29,jorge.quispe49@correo.pe
+C0025,Carla Rojas,Corporativo,Iquitos,Selva,2022-01-16,carla.rojas25@correo.pe
+C0427,Raúl Flores,Consumidor,Iquitos,Selva,2024-04-12,raúl.flores427@correo.pe
+C0312,Valeria Ramos,Consumidor,Piura,Costa,2022-01-23,valeria.ramos312@correo.pe
+C0394,Lucía Salazar,Consumidor,Tarapoto,Selva,2022-01-04,lucía.salazar394@correo.pe
+C0014,María Ramos,Corporativo,Pucallpa,Selva,2022-06-30,maría.ramos14@correo.pe
+C0492,Pedro Salazar,Consumidor,Trujillo,Costa,2021-03-12,pedro.salazar492@correo.pe
+C0588,Raúl Flores,Consumidor,Arequipa,Sierra,2023-11-07,raúl.flores588@correo.pe
+C0052,Miguel Vargas,Corporativo,Chiclayo,Costa,2022-08-08,miguel.vargas52@correo.pe
+C0259,José Chávez,Corporativo,Arequipa,Sierra,2022-10-06,josé.chávez259@correo.pe
+C0444,Miguel Torres,Corporativo,Lima,Costa,2022-10-13,miguel.torres444@correo.pe
+C0097,Diego Mendoza,Pequeña Empresa,Pucallpa,Selva,2022-05-04,diego.mendoza97@correo.pe
+C0507,Ana Rojas,Consumidor,Arequipa,Sierra,2022-09-12,ana.rojas507@correo.pe
+C0572,Ana Mendoza,Pequeña Empresa,Pucallpa,Selva,2021-02-03,ana.mendoza572@correo.pe
+C0161,Miguel Paredes,Consumidor,Lima,Costa,2023-06-10,miguel.paredes161@correo.pe
+C0100,Rosa Paredes,Pequeña Empresa,Pucallpa,Selva,2023-06-04,rosa.paredes100@correo.pe
+C0592,Sofía Castillo,Corporativo,Huancayo,Sierra,2023-10-26,sofía.castillo592@correo.pe
+C0261,Daniela Vargas,Corporativo,Cajamarca,Sierra,2021-08-20,daniela.vargas261@correo.pe
+C0252,Carlos Mendoza,Corporativo,Huancayo,Sierra,2021-10-10,carlos.mendoza252@correo.pe
+C0448,Luis Paredes,Corporativo,Trujillo,Costa,2022-01-26,luis.paredes448@correo.pe
+C0493,Miguel Castillo,Corporativo,Chiclayo,Costa,2023-12-11,miguel.castillo493@correo.pe
+C0114,Pedro Torres,Consumidor,Puno,Sierra,2023-12-25,pedro.torres114@correo.pe
+C0433,Lucía Flores,,Puno,Sierra,2022-07-02,lucía.flores433@correo.pe
+C0451,Lucía Rojas,Corporativo,Arequipa,Sierra,2021-01-26,lucía.rojas451@correo.pe
+C0282,Carla Quispe,Pequeña Empresa,Chiclayo,Costa,2022-09-03,carla.quispe282@correo.pe
+C0060,Sofía Rojas,Corporativo,Cajamarca,Sierra,2022-02-07,sofía.rojas60@correo.pe
+C0171,Raúl Torres,Pequeña Empresa,Tarapoto,Selva,2022-10-12,raúl.torres171@correo.pe
+C0380,Luis Castillo,Corporativo,Huancayo,Sierra,2023-08-17,luis.castillo380@correo.pe
+C0578,Raúl Vargas,Consumidor,Pucallpa,Selva,2021-08-26,raúl.vargas578@correo.pe
+C0216,Sofía Torres,Corporativo,Cajamarca,Sierra,2021-11-08,sofía.torres216@correo.pe
+C0520,Ana Vargas,Corporativo,Chiclayo,Costa,2022-09-18,ana.vargas520@correo.pe
+C0313,María Flores,Consumidor,Ica,Costa,2023-11-03,maría.flores313@correo.pe
+C0051,Sofía Vargas,Corporativo,  PIURA ,Costa,2022-06-20,sofía.vargas51@correo.pe
+C0460,Raúl Quispe,Consumidor,  CUSCO ,Sierra,2022-11-11,raúl.quispe460@correo.pe
+C0077,Valeria Ramos,Pequeña Empresa,Tarapoto,Selva,2021-08-06,
+C0426,José Chávez,Consumidor,Arequipa,Sierra,2023-10-23,josé.chávez426@correo.pe
+C0076,Carlos Rojas,Pequeña Empresa,Pucallpa,Selva,2021-06-09,carlos.rojas76@correo.pe
+C0188,Ana Ríos,Corporativo,Cajamarca,Sierra,2022-11-26,ana.ríos188@correo.pe
+C0393,Pedro Paredes,Pequeña Empresa,Huancayo,Sierra,2021-10-08,pedro.paredes393@correo.pe
+C0397,Jorge García,Consumidor,Cajamarca,Sierra,2022-07-30,jorge.garcía397@correo.pe
+C0148,Valeria Quispe,Corporativo,Tarapoto,Selva,2021-10-08,valeria.quispe148@correo.pe
+C0454,Rosa Rojas,Pequeña Empresa,Huancayo,Sierra,2023-05-04,rosa.rojas454@correo.pe
+C0447,Luis Castillo,Consumidor,Pucallpa,Selva,2022-03-09,luis.castillo447@correo.pe
+C0190,José Flores,Pequeña Empresa,Iquitos,Selva,2023-01-24,josé.flores190@correo.pe
+C0414,Luis Torres,,Cusco,Sierra,2023-05-12,luis.torres414@correo.pe
+C0349,Pedro Quispe,Consumidor,Cajamarca,Sierra,2022-03-01,pedro.quispe349@correo.pe
+C0062,Jorge Huamán,Corporativo,Huancayo,Sierra,2022-06-30,jorge.huamán62@correo.pe
+C0446,Carlos Quispe,Consumidor,Puno,Sierra,2021-06-18,carlos.quispe446@correo.pe
+C0143,Rosa Paredes,Consumidor,Pucallpa,Selva,2023-09-10,rosa.paredes143@correo.pe
+C0315,Raúl Quispe,Pequeña Empresa,Tarapoto,Selva,2023-08-15,raúl.quispe315@correo.pe
+C0450,Ana Vargas,Consumidor,Iquitos,Selva,2022-09-28,ana.vargas450@correo.pe
+C0529,Lucía Flores,Consumidor,Puno,Sierra,2022-11-28,lucía.flores529@correo.pe
+C0474,José Mendoza,Consumidor,Ica,Costa,2022-09-25,josé.mendoza474@correo.pe
+C0599,Raúl Paredes,Pequeña Empresa,Pucallpa,Selva,2021-03-05,raúl.paredes599@correo.pe
+C0534,Carla Ríos,Corporativo,Cusco,Sierra,2024-02-24,carla.ríos534@correo.pe
+C0237,Carlos Rojas,Consumidor,Ica,Costa,2022-01-06,carlos.rojas237@correo.pe
+C0295,Carla Ríos,Pequeña Empresa,  HUANCAYO ,Sierra,2023-04-27,carla.ríos295@correo.pe
+C0071,Rosa Mendoza,Consumidor,Lima,Costa,2021-04-02,rosa.mendoza71@correo.pe
+C0135,María Torres,Pequeña Empresa,Piura,Costa,2024-01-22,maría.torres135@correo.pe
+C0513,Diego Chávez,Corporativo,Tarapoto,Selva,2023-06-09,diego.chávez513@correo.pe
+C0058,María Flores,Corporativo,Pucallpa,Selva,2021-06-29,maría.flores58@correo.pe
+C0279,Lucía Ríos,Corporativo,Chiclayo,Costa,2021-09-08,lucía.ríos279@correo.pe
+C0024,Daniela Ríos,Corporativo,Iquitos,Selva,2022-01-22,daniela.ríos24@correo.pe
+C0003,Sofía García,Corporativo,Piura,Costa,2023-03-25,sofía.garcía3@correo.pe
+C0011,Daniela Paredes,Corporativo,Ica,Costa,2023-12-07,daniela.paredes11@correo.pe
+C0089,Pedro Flores,Consumidor,Chiclayo,Costa,2021-12-19,pedro.flores89@correo.pe
+C0335,Sofía Mendoza,Consumidor,Tarapoto,Selva,2023-11-21,sofía.mendoza335@correo.pe
+C0387,Luis García,Pequeña Empresa,Piura,Costa,2022-05-07,luis.garcía387@correo.pe
+C0379,Luis García,Corporativo,Iquitos,Selva,2022-08-17,luis.garcía379@correo.pe
+C0428,Valeria Ríos,Corporativo,Trujillo,Costa,2023-12-23,valeria.ríos428@correo.pe
+C0309,Valeria Huamán,Corporativo,Trujillo,Costa,2024-03-27,valeria.huamán309@correo.pe
+C0449,Daniela Chávez,Pequeña Empresa,Pucallpa,Selva,2021-04-02,daniela.chávez449@correo.pe
+C0535,María Rojas,Pequeña Empresa,Trujillo,Costa,2021-05-27,
+C0205,Rosa García,Corporativo,Cusco,Sierra,2021-09-17,rosa.garcía205@correo.pe
+C0020,Ana Flores,Consumidor,Piura,Costa,2023-03-09,ana.flores20@correo.pe
+C0591,Sofía García,Consumidor,Arequipa,Sierra,2022-01-19,sofía.garcía591@correo.pe
+C0233,Daniela Ramos,Corporativo,Huancayo,Sierra,2023-03-19,daniela.ramos233@correo.pe
+C0555,Diego Salazar,Consumidor,Cajamarca,Sierra,2021-07-19,diego.salazar555@correo.pe
+C0167,Rosa Flores,Corporativo,Arequipa,Sierra,2022-05-13,rosa.flores167@correo.pe
+C0235,José Chávez,Consumidor,Puno,Sierra,2021-11-18,josé.chávez235@correo.pe
+C0530,Raúl Vargas,Corporativo,Arequipa,Sierra,2023-04-29,raúl.vargas530@correo.pe
+C0039,Pedro Chávez,Consumidor,  IQUITOS ,Selva,2021-09-09,pedro.chávez39@correo.pe
+C0187,Daniela Quispe,Pequeña Empresa,Piura,Costa,2023-11-13,daniela.quispe187@correo.pe
+C0419,Raúl Chávez,Consumidor,  IQUITOS ,Selva,2022-12-01,raúl.chávez419@correo.pe
+C0142,Daniela Chávez,Pequeña Empresa,Cajamarca,Sierra,2022-10-27,
+C0203,Pedro Flores,Pequeña Empresa,Arequipa,Sierra,2022-01-25,pedro.flores203@correo.pe
+C0384,Luis García,Consumidor,Tarapoto,Selva,2023-02-15,luis.garcía384@correo.pe
+C0539,Carlos Mendoza,Corporativo,Cusco,Sierra,2021-08-27,carlos.mendoza539@correo.pe
+C0531,José Rojas,Consumidor,Piura,Costa,2022-02-12,josé.rojas531@correo.pe
+C0253,José Salazar,Corporativo,  AREQUIPA ,Sierra,2022-03-16,josé.salazar253@correo.pe
+C0533,Daniela Ríos,Consumidor,Arequipa,Sierra,2022-08-08,
+C0286,Ana Ríos,Corporativo,Lima,Costa,2021-03-16,ana.ríos286@correo.pe
+C0170,José García,Corporativo,Puno,Sierra,2021-07-03,josé.garcía170@correo.pe
+C0094,Jorge Mendoza,Corporativo,Puno,Sierra,2024-03-23,jorge.mendoza94@correo.pe
+C0140,Diego Quispe,Pequeña Empresa,Arequipa,Sierra,2022-02-10,diego.quispe140@correo.pe
+C0318,Carla Salazar,Consumidor,Cajamarca,Sierra,2023-05-01,carla.salazar318@correo.pe
+C0201,Carlos Salazar,Pequeña Empresa,Piura,Costa,2023-06-15,carlos.salazar201@correo.pe
+C0316,María Castillo,Corporativo,Iquitos,Selva,2022-04-18,maría.castillo316@correo.pe
+C0365,Luis Quispe,Pequeña Empresa,Cusco,Sierra,2022-05-22,luis.quispe365@correo.pe
+C0441,Pedro García,Pequeña Empresa,Trujillo,Costa,2022-01-19,pedro.garcía441@correo.pe
+C0009,Raúl Salazar,Corporativo,Piura,Costa,2024-01-23,raúl.salazar9@correo.pe
+C0131,María Paredes,Pequeña Empresa,Lima,Costa,2022-12-01,maría.paredes131@correo.pe
+C0297,Sofía García,Pequeña Empresa,Trujillo,Costa,2024-04-05,sofía.garcía297@correo.pe
+C0395,Sofía Flores,Corporativo,Ica,Costa,2021-05-23,sofía.flores395@correo.pe
+C0598,Sofía Flores,Pequeña Empresa,Chiclayo,Costa,2021-01-20,sofía.flores598@correo.pe
+C0030,Rosa Vargas,Pequeña Empresa,Ica,Costa,2024-03-09,rosa.vargas30@correo.pe
+C0265,Valeria Paredes,Corporativo,Tarapoto,Selva,2021-09-03,valeria.paredes265@correo.pe
+C0107,Pedro Vargas,Pequeña Empresa,Ica,Costa,2023-11-25,pedro.vargas107@correo.pe
+C0223,Diego Ríos,,Puno,Sierra,2021-09-19,diego.ríos223@correo.pe
+C0099,Lucía Mendoza,Pequeña Empresa,Piura,Costa,2021-03-11,lucía.mendoza99@correo.pe
+C0521,Lucía Ríos,Corporativo,Cusco,Sierra,2023-01-26,lucía.ríos521@correo.pe
+C0467,Raúl Castillo,Consumidor,Pucallpa,Selva,2023-02-18,raúl.castillo467@correo.pe
+C0288,Luis Paredes,Consumidor,Iquitos,Selva,2021-12-15,luis.paredes288@correo.pe
+C0548,María Ramos,Pequeña Empresa,Iquitos,Selva,2021-06-15,maría.ramos548@correo.pe
+C0096,Jorge Salazar,Pequeña Empresa,Lima,Costa,2022-11-17,jorge.salazar96@correo.pe
+C0208,Diego Ramos,Consumidor,Cusco,Sierra,2023-01-20,diego.ramos208@correo.pe
+C0173,Miguel Chávez,Corporativo,Iquitos,Selva,2023-04-13,miguel.chávez173@correo.pe
+C0037,José Quispe,Pequeña Empresa,Arequipa,Sierra,2022-07-31,josé.quispe37@correo.pe
+C0494,Daniela Castillo,Corporativo,Trujillo,Costa,2023-10-22,daniela.castillo494@correo.pe
+C0549,José Salazar,Consumidor,Lima,Costa,2023-01-02,josé.salazar549@correo.pe
+C0369,Ana Paredes,Pequeña Empresa,Piura,Costa,2021-01-25,ana.paredes369@correo.pe
+C0278,Ana Torres,Consumidor,Huancayo,Sierra,2022-04-02,ana.torres278@correo.pe
+C0005,Miguel Quispe,Corporativo,Tarapoto,Selva,2023-01-26,miguel.quispe5@correo.pe
+C0472,Pedro Quispe,Consumidor,  TARAPOTO ,Selva,2023-08-26,pedro.quispe472@correo.pe
+C0410,María Chávez,Corporativo,Piura,Costa,2023-03-03,maría.chávez410@correo.pe
+C0499,María Quispe,Pequeña Empresa,Ica,Costa,2023-01-17,maría.quispe499@correo.pe
+C0406,María Chávez,,Pucallpa,Selva,2023-09-07,maría.chávez406@correo.pe
+C0104,Jorge Castillo,Pequeña Empresa,  TARAPOTO ,Selva,2024-01-31,jorge.castillo104@correo.pe
+C0391,Valeria Ríos,Consumidor,Ica,Costa,2021-06-04,valeria.ríos391@correo.pe
+C0307,Miguel Torres,Pequeña Empresa,Cajamarca,Sierra,2023-07-09,miguel.torres307@correo.pe
+C0027,Pedro Huamán,Corporativo,Cajamarca,Sierra,2023-11-30,pedro.huamán27@correo.pe
+C0430,Sofía Quispe,Consumidor,Ica,Costa,2023-10-13,sofía.quispe430@correo.pe
+C0075,Miguel Castillo,Pequeña Empresa,Ica,Costa,2021-07-05,miguel.castillo75@correo.pe
+C0249,Raúl Ramos,Consumidor,Trujillo,Costa,2022-04-17,raúl.ramos249@correo.pe
+C0439,María Vargas,Consumidor,Cusco,Sierra,2022-06-13,maría.vargas439@correo.pe
+C0221,Raúl Castillo,Consumidor,Puno,Sierra,2021-08-12,raúl.castillo221@correo.pe
+C0207,Raúl Flores,Consumidor,Cusco,Sierra,2023-08-30,raúl.flores207@correo.pe
+C0408,Diego Quispe,Consumidor,Ica,Costa,2024-03-04,diego.quispe408@correo.pe
+C0224,Valeria Huamán,Corporativo,Cajamarca,Sierra,2021-06-13,valeria.huamán224@correo.pe
+C0374,José Chávez,Pequeña Empresa,Ica,Costa,2022-11-07,josé.chávez374@correo.pe
+C0281,Sofía Vargas,Corporativo,Arequipa,Sierra,2023-02-22,sofía.vargas281@correo.pe
+C0445,Carla García,Pequeña Empresa,Tarapoto,Selva,2021-11-27,carla.garcía445@correo.pe
+C0418,José Chávez,Consumidor,  PUNO ,Sierra,2021-02-24,josé.chávez418@correo.pe
+C0306,Sofía Castillo,Corporativo,  PIURA ,Costa,2021-02-28,sofía.castillo306@correo.pe
+C0359,Carlos Huamán,Pequeña Empresa,Huancayo,Sierra,2024-02-06,carlos.huamán359@correo.pe
+C0473,Ana Ríos,Consumidor,Piura,Costa,2022-02-16,ana.ríos473@correo.pe
+C0516,Carlos Huamán,Corporativo,Arequipa,Sierra,2023-10-02,carlos.huamán516@correo.pe
+C0069,Ana Flores,Corporativo,Iquitos,Selva,2021-11-16,ana.flores69@correo.pe
+C0128,Lucía Rojas,Pequeña Empresa,Trujillo,Costa,2023-10-02,lucía.rojas128@correo.pe
+C0239,José Salazar,Corporativo,  AREQUIPA ,Sierra,2022-06-14,josé.salazar239@correo.pe
+C0302,Sofía Flores,Consumidor,Trujillo,Costa,2022-10-20,sofía.flores302@correo.pe
+C0544,Diego Castillo,Pequeña Empresa,Cajamarca,Sierra,2023-12-04,diego.castillo544@correo.pe
+C0165,Valeria Vargas,Pequeña Empresa,Pucallpa,Selva,2021-06-15,valeria.vargas165@correo.pe
+C0431,Jorge Flores,Consumidor,Trujillo,Costa,2022-02-21,jorge.flores431@correo.pe
+C0352,Pedro Torres,Consumidor,Tarapoto,Selva,2022-09-09,pedro.torres352@correo.pe
+C0532,Pedro Quispe,Consumidor,Piura,Costa,2022-01-29,pedro.quispe532@correo.pe
+C0327,Jorge Salazar,Corporativo,Chiclayo,Costa,2021-04-06,jorge.salazar327@correo.pe
+C0576,Luis Salazar,Corporativo,Pucallpa,Selva,2022-03-04,luis.salazar576@correo.pe
+C0078,Carla Vargas,Corporativo,Puno,Sierra,2022-03-09,carla.vargas78@correo.pe
+C0213,María Ríos,Corporativo,Pucallpa,Selva,2022-04-11,maría.ríos213@correo.pe
+C0394,Lucía Salazar,Consumidor,Tarapoto,Selva,2022-01-04,lucía.salazar394@correo.pe
+C0196,Pedro Chávez,Pequeña Empresa,Ica,Costa,2021-02-20,pedro.chávez196@correo.pe
+C0132,Raúl Huamán,Consumidor,Trujillo,Costa,2022-01-06,raúl.huamán132@correo.pe
+C0324,Ana Castillo,Consumidor,Tarapoto,Selva,2024-02-01,ana.castillo324@correo.pe
+C0287,Daniela Paredes,Pequeña Empresa,Huancayo,Sierra,2022-01-01,daniela.paredes287@correo.pe
+C0479,Carla Vargas,Consumidor,Tarapoto,Selva,2022-05-17,carla.vargas479@correo.pe
+C0403,Diego Mendoza,Pequeña Empresa,Pucallpa,Selva,2023-07-23,diego.mendoza403@correo.pe
+C0565,Daniela Paredes,Corporativo,Trujillo,Costa,2023-06-08,daniela.paredes565@correo.pe
+C0115,Jorge García,Consumidor,Pucallpa,Selva,2023-08-24,jorge.garcía115@correo.pe
+C0120,Miguel Salazar,Consumidor,Trujillo,Costa,2023-04-07,miguel.salazar120@correo.pe
+C0160,María Castillo,Corporativo,Pucallpa,Selva,2022-10-10,maría.castillo160@correo.pe
+C0303,Daniela Salazar,Pequeña Empresa,Cajamarca,Sierra,2023-01-05,daniela.salazar303@correo.pe
+C0051,Sofía Vargas,Corporativo,  PIURA ,Costa,2022-06-20,sofía.vargas51@correo.pe
+C0417,José Vargas,Consumidor,Tarapoto,Selva,2022-06-15,josé.vargas417@correo.pe
+C0181,Luis García,Corporativo,Piura,Costa,2021-11-16,luis.garcía181@correo.pe
+C0574,Rosa Castillo,Consumidor,Iquitos,Selva,2023-11-23,rosa.castillo574@correo.pe
+C0204,Carla García,Corporativo,Trujillo,Costa,2024-01-19,carla.garcía204@correo.pe
+C0256,Diego Salazar,Corporativo,Chiclayo,Costa,2021-02-27,diego.salazar256@correo.pe
+C0275,Daniela García,Corporativo,Piura,Costa,2023-04-08,daniela.garcía275@correo.pe
+C0274,Jorge Salazar,Consumidor,Huancayo,Sierra,2022-07-18,jorge.salazar274@correo.pe
+C0571,Rosa Ramos,Corporativo,Cajamarca,Sierra,2022-06-18,rosa.ramos571@correo.pe
+C0146,Daniela Flores,Pequeña Empresa,Tarapoto,Selva,2024-01-04,daniela.flores146@correo.pe
+C0593,Daniela Rojas,Pequeña Empresa,Ica,Costa,2021-07-13,daniela.rojas593@correo.pe
+C0409,Sofía Castillo,Corporativo,Arequipa,Sierra,2022-08-03,sofía.castillo409@correo.pe
+C0016,Jorge Chávez,Pequeña Empresa,Trujillo,Costa,2021-04-02,jorge.chávez16@correo.pe
+C0166,Luis Castillo,Pequeña Empresa,Arequipa,Sierra,2021-10-26,luis.castillo166@correo.pe
+C0210,Ana Rojas,Corporativo,  TRUJILLO ,Costa,2021-12-29,ana.rojas210@correo.pe
+C0388,Lucía Vargas,Corporativo,Huancayo,Sierra,2023-03-24,lucía.vargas388@correo.pe
+C0199,Jorge Vargas,Pequeña Empresa,Arequipa,Sierra,2023-12-03,jorge.vargas199@correo.pe
+C0085,Rosa Huamán,Consumidor,Tarapoto,Selva,2021-02-27,rosa.huamán85@correo.pe
+C0311,Raúl Ramos,Consumidor,Cajamarca,Sierra,2022-01-20,raúl.ramos311@correo.pe
+C0525,Raúl Ríos,Consumidor,Tarapoto,Selva,2021-02-15,raúl.ríos525@correo.pe
+C0168,Jorge Quispe,Corporativo,Arequipa,Sierra,2023-12-17,jorge.quispe168@correo.pe
+C0386,José Castillo,Corporativo,  IQUITOS ,Selva,2023-02-14,josé.castillo386@correo.pe
+C0260,Carlos Torres,Consumidor,Tarapoto,Selva,2023-04-06,carlos.torres260@correo.pe
+C0341,Diego Castillo,Consumidor,Trujillo,Costa,2023-05-28,diego.castillo341@correo.pe
+C0348,Carla Torres,Consumidor,Huancayo,Sierra,2024-03-20,carla.torres348@correo.pe
+C0353,Raúl Salazar,Consumidor,Chiclayo,Costa,2023-08-25,raúl.salazar353@correo.pe
+C0156,Lucía Vargas,Pequeña Empresa,Trujillo,Costa,2022-06-01,lucía.vargas156@correo.pe
+C0084,Sofía Rojas,Consumidor,Cusco,Sierra,2023-11-07,sofía.rojas84@correo.pe
+C0487,Carla Mendoza,Consumidor,Puno,Sierra,2021-04-24,carla.mendoza487@correo.pe
+C0044,Sofía Quispe,Pequeña Empresa,Huancayo,Sierra,2021-01-24,sofía.quispe44@correo.pe
+C0179,Carlos Mendoza,Pequeña Empresa,  AREQUIPA ,Sierra,2024-02-19,carlos.mendoza179@correo.pe
+C0268,María Mendoza,Corporativo,Cusco,Sierra,2022-01-19,maría.mendoza268@correo.pe
+C0269,Rosa Vargas,Corporativo,Cajamarca,Sierra,2022-02-13,rosa.vargas269@correo.pe
+C0145,Ana García,Consumidor,Pucallpa,Selva,2022-03-24,ana.garcía145@correo.pe
+C0436,Carla Castillo,Pequeña Empresa,Lima,Costa,2023-09-15,carla.castillo436@correo.pe
+C0293,Lucía Salazar,Pequeña Empresa,Pucallpa,Selva,2021-12-06,lucía.salazar293@correo.pe
+C0399,Carlos Huamán,Pequeña Empresa,Lima,Costa,2022-07-30,carlos.huamán399@correo.pe
+C0461,Lucía Chávez,Corporativo,Lima,Costa,2021-08-09,lucía.chávez461@correo.pe
+C0517,Raúl Castillo,Consumidor,Cusco,Sierra,2022-12-12,raúl.castillo517@correo.pe
+C0129,Carlos Quispe,Consumidor,Iquitos,Selva,2024-01-22,carlos.quispe129@correo.pe
+C0477,Miguel Mendoza,Consumidor,Piura,Costa,2021-11-08,miguel.mendoza477@correo.pe
+C0218,María García,Corporativo,Pucallpa,Selva,2022-04-12,maría.garcía218@correo.pe
+C0396,Carlos Ríos,Consumidor,Cajamarca,Sierra,2021-10-17,carlos.ríos396@correo.pe
+C0385,Sofía Salazar,Consumidor,Piura,Costa,2023-07-28,sofía.salazar385@correo.pe
+C0434,Pedro García,Corporativo,  CHICLAYO ,Costa,2021-02-22,pedro.garcía434@correo.pe
+C0289,Pedro García,Pequeña Empresa,Ica,Costa,2022-04-29,pedro.garcía289@correo.pe
+C0310,Diego Castillo,Corporativo,Tarapoto,Selva,2022-11-16,diego.castillo310@correo.pe
+C0508,Luis Salazar,Corporativo,Huancayo,Sierra,2023-10-15,luis.salazar508@correo.pe
+C0091,Carlos Castillo,Consumidor,Huancayo,Sierra,2021-10-10,carlos.castillo91@correo.pe
+C0174,María Ramos,Corporativo,Pucallpa,Selva,2021-04-05,maría.ramos174@correo.pe
+C0551,Pedro Salazar,Consumidor,Chiclayo,Costa,2022-05-09,pedro.salazar551@correo.pe
+C0294,José Flores,Pequeña Empresa,Trujillo,Costa,2022-01-26,josé.flores294@correo.pe
+C0158,Luis Vargas,Consumidor,Pucallpa,Selva,2022-12-08,luis.vargas158@correo.pe
+C0370,Jorge Quispe,Corporativo,Puno,Sierra,2021-07-17,jorge.quispe370@correo.pe
+C0465,Raúl Ríos,Pequeña Empresa,Lima,Costa,2023-06-16,raúl.ríos465@correo.pe
+C0139,Rosa García,Consumidor,Cajamarca,Sierra,2023-06-24,rosa.garcía139@correo.pe
+C0007,Raúl Vargas,Consumidor,Puno,Sierra,2023-11-27,raúl.vargas7@correo.pe
+C0469,José García,Corporativo,Ica,Costa,2023-02-07,josé.garcía469@correo.pe
+C0339,Ana Vargas,Consumidor,Iquitos,Selva,2021-07-24,ana.vargas339@correo.pe
+C0377,Carla Flores,Corporativo,Cusco,Sierra,2021-03-24,carla.flores377@correo.pe
+C0271,Sofía Vargas,Corporativo,Arequipa,Sierra,2021-03-28,sofía.vargas271@correo.pe
+C0178,María Paredes,,Puno,Sierra,2024-01-31,maría.paredes178@correo.pe
+C0515,Luis Paredes,Corporativo,Cajamarca,Sierra,2021-11-18,luis.paredes515@correo.pe
+C0344,Valeria Paredes,Consumidor,Piura,Costa,2021-02-02,valeria.paredes344@correo.pe
+C0351,Carla Vargas,Consumidor,  TRUJILLO ,Costa,2022-11-04,carla.vargas351@correo.pe
+C0294,José Flores,Pequeña Empresa,Trujillo,Costa,2022-01-26,josé.flores294@correo.pe
+C0255,Jorge Ramos,Pequeña Empresa,Tarapoto,Selva,2022-09-21,jorge.ramos255@correo.pe
+C0047,Miguel García,,Tarapoto,Selva,2021-11-21,miguel.garcía47@correo.pe
+C0358,Pedro Ramos,Pequeña Empresa,Lima,Costa,2021-07-26,pedro.ramos358@correo.pe
+C0093,Jorge Ríos,Corporativo,  HUANCAYO ,Sierra,2022-07-20,jorge.ríos93@correo.pe
+C0229,Carla Chávez,Corporativo,Piura,Costa,2023-12-04,carla.chávez229@correo.pe
+C0308,Jorge Castillo,Pequeña Empresa,Tarapoto,Selva,2023-07-20,jorge.castillo308@correo.pe
+C0319,Valeria Rojas,Pequeña Empresa,Piura,Costa,2023-06-26,valeria.rojas319@correo.pe
+C0017,Sofía Ramos,Pequeña Empresa,Lima,Costa,2024-04-09,sofía.ramos17@correo.pe
+C0008,Jorge Salazar,Corporativo,Tarapoto,Selva,2023-05-30,jorge.salazar8@correo.pe
+C0392,Rosa Rojas,Pequeña Empresa,Lima,Costa,2022-06-12,rosa.rojas392@correo.pe
+C0495,María Quispe,Pequeña Empresa,Piura,Costa,2021-03-29,maría.quispe495@correo.pe
+C0423,Valeria Quispe,Consumidor,Tarapoto,Selva,2022-07-10,valeria.quispe423@correo.pe
+C0209,José Vargas,Consumidor,Tarapoto,Selva,2021-02-02,josé.vargas209@correo.pe
+C0102,José Mendoza,Consumidor,Lima,Costa,2021-01-12,josé.mendoza102@correo.pe
+C0511,María Torres,Pequeña Empresa,Iquitos,Selva,2022-06-16,maría.torres511@correo.pe
+C0002,Daniela García,Pequeña Empresa,Puno,Sierra,2021-01-06,daniela.garcía2@correo.pe
+C0348,Carla Torres,Consumidor,Huancayo,Sierra,2024-03-20,carla.torres348@correo.pe
+C0055,Carlos Torres,Pequeña Empresa,Arequipa,Sierra,2022-03-19,carlos.torres55@correo.pe
+C0575,Valeria Castillo,Corporativo,Chiclayo,Costa,2023-06-18,valeria.castillo575@correo.pe
+C0147,Jorge Salazar,Consumidor,Cusco,Sierra,2021-05-17,jorge.salazar147@correo.pe
+C0189,María Salazar,Consumidor,Trujillo,Costa,2022-01-25,maría.salazar189@correo.pe
+C0480,Diego Ramos,Corporativo,Tarapoto,Selva,2022-10-05,diego.ramos480@correo.pe
+C0411,Rosa Huamán,Pequeña Empresa,Lima,Costa,2022-05-22,rosa.huamán411@correo.pe
+C0389,Lucía Torres,Corporativo,Pucallpa,Selva,2021-09-30,lucía.torres389@correo.pe
+C0186,Jorge Huamán,Consumidor,Cajamarca,Sierra,2022-12-21,jorge.huamán186@correo.pe
+C0194,María Rojas,Consumidor,Chiclayo,Costa,2022-06-30,maría.rojas194@correo.pe
+C0522,Sofía Ramos,Consumidor,Pucallpa,Selva,2021-04-05,sofía.ramos522@correo.pe
+C0519,Carla Ríos,Pequeña Empresa,Trujillo,Costa,2023-05-10,carla.ríos519@correo.pe
+C0527,Valeria Huamán,Consumidor,Huancayo,Sierra,2021-02-23,valeria.huamán527@correo.pe
+C0189,María Salazar,Consumidor,Trujillo,Costa,2022-01-25,maría.salazar189@correo.pe
+C0404,Daniela García,Pequeña Empresa,Arequipa,Sierra,2022-12-22,daniela.garcía404@correo.pe
+C0582,Lucía Ramos,Pequeña Empresa,Lima,Costa,2021-11-17,lucía.ramos582@correo.pe
+C0110,Daniela Flores,Corporativo,Cusco,Sierra,2021-02-08,daniela.flores110@correo.pe
+C0291,Diego Ríos,Corporativo,Huancayo,Sierra,2022-11-06,diego.ríos291@correo.pe
+C0536,Carlos Castillo,Corporativo,Chiclayo,Costa,2023-04-12,carlos.castillo536@correo.pe
+C0033,Rosa Flores,Corporativo,Chiclayo,Costa,2021-01-29,rosa.flores33@correo.pe
+C0133,José Paredes,Consumidor,  ICA ,Costa,2021-09-26,josé.paredes133@correo.pe
+C0101,Jorge Chávez,Consumidor,Ica,Costa,2023-01-25,jorge.chávez101@correo.pe
+C0157,Lucía Paredes,Corporativo,Cusco,Sierra,2021-12-31,lucía.paredes157@correo.pe
+C0182,Luis Torres,Pequeña Empresa,Trujillo,Costa,2023-12-12,luis.torres182@correo.pe
+C0206,María García,Consumidor,Arequipa,Sierra,2023-01-12,maría.garcía206@correo.pe
+C0466,Carlos Huamán,Consumidor,Pucallpa,Selva,2023-10-14,carlos.huamán466@correo.pe
+C0543,Lucía Chávez,Consumidor,Iquitos,Selva,2023-10-05,lucía.chávez543@correo.pe
+C0070,Miguel Flores,Corporativo,Iquitos,Selva,2024-03-08,miguel.flores70@correo.pe
+C0251,Ana Huamán,Corporativo,Huancayo,Sierra,2024-04-07,ana.huamán251@correo.pe
+C0273,Lucía Salazar,Consumidor,Iquitos,Selva,2023-12-24,lucía.salazar273@correo.pe
+C0381,Jorge Torres,Pequeña Empresa,Chiclayo,Costa,2022-03-17,jorge.torres381@correo.pe
+C0272,Carlos Castillo,Consumidor,Huancayo,Sierra,2021-06-28,carlos.castillo272@correo.pe
+C0042,Carla García,Consumidor,Huancayo,Sierra,2021-02-17,carla.garcía42@correo.pe
+C0276,María Torres,Consumidor,Cajamarca,Sierra,2023-08-16,maría.torres276@correo.pe
+C0023,María Vargas,Consumidor,Tarapoto,Selva,2023-03-29,maría.vargas23@correo.pe
+C0034,Jorge García,Corporativo,Lima,Costa,2021-02-17,jorge.garcía34@correo.pe
+C0524,Pedro Ramos,Corporativo,Cusco,Sierra,2022-12-26,pedro.ramos524@correo.pe
+C0468,Pedro Salazar,Pequeña Empresa,Lima,Costa,2022-02-22,pedro.salazar468@correo.pe
+C0164,José Quispe,Corporativo,Pucallpa,Selva,2022-12-02,josé.quispe164@correo.pe
+C0298,Diego Castillo,Pequeña Empresa,Huancayo,Sierra,2021-03-15,diego.castillo298@correo.pe
+C0471,Jorge Ríos,Consumidor,Pucallpa,Selva,2023-10-12,jorge.ríos471@correo.pe
+C0586,Valeria Chávez,Corporativo,Puno,Sierra,2021-06-06,valeria.chávez586@correo.pe
+C0228,Pedro Paredes,Consumidor,Lima,Costa,2023-11-10,
+C0416,Rosa Vargas,Corporativo,Pucallpa,Selva,2023-02-09,rosa.vargas416@correo.pe
+C0490,Miguel Rojas,Pequeña Empresa,Tarapoto,Selva,2024-04-02,miguel.rojas490@correo.pe
+C0457,Rosa Chávez,Corporativo,Huancayo,Sierra,2022-09-16,rosa.chávez457@correo.pe
+C0420,Valeria Huamán,Corporativo,Puno,Sierra,2024-01-24,valeria.huamán420@correo.pe
+C0012,Raúl Paredes,Pequeña Empresa,Puno,Sierra,2023-06-09,raúl.paredes12@correo.pe
+C0225,Luis Ramos,Pequeña Empresa,Iquitos,Selva,2022-05-25,luis.ramos225@correo.pe
+C0050,Valeria Vargas,Pequeña Empresa,Piura,Costa,2023-11-24,valeria.vargas50@correo.pe
+C0332,Sofía Rojas,Consumidor,Pucallpa,Selva,2021-09-30,sofía.rojas332@correo.pe
+C0219,Valeria Huamán,Consumidor,Puno,Sierra,2023-07-18,valeria.huamán219@correo.pe
+C0285,Miguel Mendoza,Corporativo,Huancayo,Sierra,2021-02-10,miguel.mendoza285@correo.pe
+C0038,José Huamán,Consumidor,Chiclayo,Costa,2024-04-14,josé.huamán38@correo.pe
+C0496,José Vargas,Corporativo,Pucallpa,Selva,2022-02-02,josé.vargas496@correo.pe
+C0064,José Huamán,Pequeña Empresa,Pucallpa,Selva,2021-07-14,josé.huamán64@correo.pe
+C0584,Carla García,Consumidor,Lima,Costa,2023-01-04,carla.garcía584@correo.pe
+C0398,Sofía Salazar,Corporativo,Tarapoto,Selva,2024-03-14,sofía.salazar398@correo.pe
+C0138,Pedro Vargas,Corporativo,  TARAPOTO ,Selva,2023-05-09,pedro.vargas138@correo.pe
+C0175,José Salazar,Corporativo,Piura,Costa,2022-10-06,josé.salazar175@correo.pe
+C0242,Jorge Quispe,Consumidor,Puno,Sierra,2021-08-17,jorge.quispe242@correo.pe
+C0118,Valeria Torres,Corporativo,Arequipa,Sierra,2023-06-18,valeria.torres118@correo.pe
+C0546,Jorge Ríos,Consumidor,Huancayo,Sierra,2021-01-18,jorge.ríos546@correo.pe
+C0086,Lucía Ríos,Consumidor,Pucallpa,Selva,2021-12-16,lucía.ríos86@correo.pe
+C0509,Sofía Paredes,Pequeña Empresa,Arequipa,Sierra,2021-02-18,
+C0155,María Salazar,Corporativo,Iquitos,Selva,2022-04-07,maría.salazar155@correo.pe
+C0440,José Quispe,Consumidor,Huancayo,Sierra,2024-01-02,josé.quispe440@correo.pe
+C0583,Daniela Huamán,Pequeña Empresa,Puno,Sierra,2023-08-12,daniela.huamán583@correo.pe
+C0421,Lucía Paredes,Pequeña Empresa,Cajamarca,Sierra,2022-05-28,lucía.paredes421@correo.pe
+C0090,Carla Ramos,Corporativo,Arequipa,Sierra,2022-07-05,carla.ramos90@correo.pe
+C0117,Carla Mendoza,Corporativo,Pucallpa,Selva,2021-01-11,carla.mendoza117@correo.pe
+C0226,Daniela Mendoza,Corporativo,Tarapoto,Selva,2024-03-20,daniela.mendoza226@correo.pe
+C0318,Carla Salazar,Consumidor,Cajamarca,Sierra,2023-05-01,carla.salazar318@correo.pe
+C0045,Carla Salazar,Pequeña Empresa,Tarapoto,Selva,2023-03-29,carla.salazar45@correo.pe
+C0122,Valeria Salazar,Corporativo,Tarapoto,Selva,2022-06-24,valeria.salazar122@correo.pe
+C0214,Pedro García,Pequeña Empresa,Trujillo,Costa,2023-12-06,pedro.garcía214@correo.pe
+C0010,Raúl Paredes,,Tarapoto,Selva,2023-04-04,raúl.paredes10@correo.pe
+C0455,Jorge Paredes,Corporativo,Piura,Costa,2023-06-22,jorge.paredes455@correo.pe
+C0573,Diego Rojas,Pequeña Empresa,Tarapoto,Selva,2022-10-12,diego.rojas573@correo.pe
+C0048,José Paredes,Pequeña Empresa,Puno,Sierra,2021-03-18,josé.paredes48@correo.pe
+C0464,Luis Castillo,Pequeña Empresa,Puno,Sierra,2023-03-30,luis.castillo464@correo.pe
+C0567,Luis Huamán,Corporativo,Iquitos,Selva,2021-10-20,luis.huamán567@correo.pe
+C0006,Jorge Mendoza,Pequeña Empresa,Pucallpa,Selva,2023-11-04,jorge.mendoza6@correo.pe
+C0192,Sofía Quispe,Corporativo,Puno,Sierra,2023-05-17,sofía.quispe192@correo.pe
+C0485,Carlos Mendoza,Pequeña Empresa,Cusco,Sierra,2022-06-03,carlos.mendoza485@correo.pe
+C0244,Sofía Ríos,Consumidor,Iquitos,Selva,2023-05-13,
+C0018,Diego Castillo,Pequeña Empresa,Iquitos,Selva,2021-09-26,diego.castillo18@correo.pe
+C0537,Luis Ramos,Corporativo,Pucallpa,Selva,2023-02-22,
+C0056,Jorge Ríos,Corporativo,Cajamarca,Sierra,2021-05-30,jorge.ríos56@correo.pe
+C0342,Luis Salazar,Corporativo,Iquitos,Selva,2022-07-02,luis.salazar342@correo.pe
+C0561,María Rojas,Pequeña Empresa,  CUSCO ,Sierra,2021-01-17,maría.rojas561@correo.pe
+C0568,Sofía Ríos,Pequeña Empresa,Ica,Costa,2022-09-13,sofía.ríos568@correo.pe
+C0360,Raúl Quispe,Consumidor,Pucallpa,Selva,2023-12-04,
+C0498,Diego Salazar,Consumidor,Pucallpa,Selva,2021-01-18,diego.salazar498@correo.pe
+C0111,Diego Ríos,Pequeña Empresa,Tarapoto,Selva,2023-08-30,diego.ríos111@correo.pe
+C0558,Carla Vargas,Corporativo,Cajamarca,Sierra,2023-11-13,carla.vargas558@correo.pe
+C0013,Daniela Salazar,Corporativo,Arequipa,Sierra,2023-11-22,daniela.salazar13@correo.pe
+C0412,Carla Huamán,Corporativo,Lima,Costa,2022-09-14,carla.huamán412@correo.pe
+C0184,Ana García,Consumidor,Trujillo,Costa,2023-11-14,ana.garcía184@correo.pe
+C0197,Carla Salazar,Consumidor,Tarapoto,Selva,2022-09-28,
+C0127,Diego Vargas,Corporativo,Pucallpa,Selva,2024-04-12,diego.vargas127@correo.pe
+C0528,María Salazar,Pequeña Empresa,Puno,Sierra,2021-08-20,maría.salazar528@correo.pe
+C0183,Valeria Ríos,Consumidor,Piura,Costa,2021-06-08,valeria.ríos183@correo.pe
+C0569,Rosa Flores,Pequeña Empresa,Piura,Costa,2024-01-29,rosa.flores569@correo.pe
+C0504,Carla Paredes,Pequeña Empresa,Trujillo,Costa,2022-07-08,carla.paredes504@correo.pe
+C0135,María Torres,Pequeña Empresa,Piura,Costa,2024-01-22,maría.torres135@correo.pe
+C0570,Diego Salazar,Consumidor,  TRUJILLO ,Costa,2022-04-28,diego.salazar570@correo.pe
+C0317,Carlos Huamán,Pequeña Empresa,Cusco,Sierra,2022-10-23,carlos.huamán317@correo.pe
+C0522,Sofía Ramos,Consumidor,Pucallpa,Selva,2021-04-05,sofía.ramos522@correo.pe
+C0357,Luis Flores,Corporativo,Huancayo,Sierra,2022-10-19,luis.flores357@correo.pe
+C0514,Sofía Salazar,Consumidor,Ica,Costa,2023-06-20,sofía.salazar514@correo.pe
+C0383,Carla Vargas,Pequeña Empresa,Trujillo,Costa,2021-02-25,carla.vargas383@correo.pe
+C0292,Miguel Ramos,Consumidor,Huancayo,Sierra,2022-12-18,miguel.ramos292@correo.pe
+C0459,Rosa García,Pequeña Empresa,Puno,Sierra,2021-12-05,rosa.garcía459@correo.pe
+C0321,Jorge Chávez,Pequeña Empresa,Puno,Sierra,2023-11-15,jorge.chávez321@correo.pe
+C0329,Jorge Mendoza,Pequeña Empresa,Puno,Sierra,2021-12-11,jorge.mendoza329@correo.pe
+C0413,Ana Huamán,Corporativo,Huancayo,Sierra,2022-10-15,ana.huamán413@correo.pe
+C0453,Luis Paredes,Consumidor,Pucallpa,Selva,2022-06-29,luis.paredes453@correo.pe
+C0029,Ana Huamán,Corporativo,Iquitos,Selva,2021-11-18,ana.huamán29@correo.pe
+C0054,Pedro Quispe,Pequeña Empresa,Iquitos,Selva,2021-08-27,pedro.quispe54@correo.pe
+C0347,Luis Flores,Corporativo,Tarapoto,Selva,2022-05-30,luis.flores347@correo.pe
+C0595,José Paredes,Corporativo,Tarapoto,Selva,2023-01-15,josé.paredes595@correo.pe
+C0068,Lucía Paredes,Pequeña Empresa,Arequipa,Sierra,2023-07-26,lucía.paredes68@correo.pe
+C0452,Miguel Vargas,Pequeña Empresa,Arequipa,Sierra,2023-11-28,miguel.vargas452@correo.pe
+C0566,Rosa Vargas,Pequeña Empresa,Piura,Costa,2023-08-09,rosa.vargas566@correo.pe
+C0036,Carlos Ríos,Pequeña Empresa,Iquitos,Selva,2023-10-24,carlos.ríos36@correo.pe
+C0163,Sofía Vargas,Consumidor,Pucallpa,Selva,2022-03-25,sofía.vargas163@correo.pe
+C0320,Raúl Flores,Pequeña Empresa,Cajamarca,Sierra,2023-02-13,raúl.flores320@correo.pe
+C0280,Jorge Ramos,Pequeña Empresa,Iquitos,Selva,2022-08-17,jorge.ramos280@correo.pe
+C0254,Carlos Quispe,Pequeña Empresa,Cajamarca,Sierra,2023-04-21,carlos.quispe254@correo.pe
+C0073,Raúl Rojas,Corporativo,Arequipa,Sierra,2021-02-14,raúl.rojas73@correo.pe
+C0390,Rosa Chávez,Pequeña Empresa,  IQUITOS ,Selva,2023-05-02,rosa.chávez390@correo.pe
+C0300,Raúl Torres,Corporativo,Cusco,Sierra,2022-04-09,raúl.torres300@correo.pe
+C0586,Valeria Chávez,Corporativo,Puno,Sierra,2021-06-06,valeria.chávez586@correo.pe
+C0426,José Chávez,Consumidor,Arequipa,Sierra,2023-10-23,josé.chávez426@correo.pe
+C0264,María Ríos,Corporativo,Pucallpa,Selva,2023-09-23,maría.ríos264@correo.pe
+C0144,Luis Flores,Corporativo,Pucallpa,Selva,2022-11-09,luis.flores144@correo.pe
+C0109,Pedro Rojas,Consumidor,Puno,Sierra,2022-05-01,pedro.rojas109@correo.pe
+C0290,Ana Salazar,Consumidor,Puno,Sierra,2023-05-20,ana.salazar290@correo.pe
+C0589,Jorge Torres,Corporativo,Lima,Costa,2021-03-16,jorge.torres589@correo.pe
+C0079,Carlos Ramos,Pequeña Empresa,Pucallpa,Selva,2023-03-14,carlos.ramos79@correo.pe
+C0415,Carla Huamán,Pequeña Empresa,Iquitos,Selva,2021-08-10,carla.huamán415@correo.pe
+C0108,Valeria Castillo,Consumidor,  CUSCO ,Sierra,2021-06-29,valeria.castillo108@correo.pe
+C0130,Carlos Ramos,Pequeña Empresa,Puno,Sierra,2023-11-23,carlos.ramos130@correo.pe
+C0400,Carla García,Corporativo,Cusco,Sierra,2024-02-16,carla.garcía400@correo.pe
+C0587,Daniela Vargas,Pequeña Empresa,Cajamarca,Sierra,2021-12-24,daniela.vargas587@correo.pe
+C0240,Miguel Mendoza,Pequeña Empresa,Puno,Sierra,2021-03-08,miguel.mendoza240@correo.pe
+C0484,Raúl Ramos,Consumidor,Cusco,Sierra,2023-10-06,raúl.ramos484@correo.pe
+C0141,Sofía Mendoza,Pequeña Empresa,Iquitos,Selva,2023-05-19,sofía.mendoza141@correo.pe
+C0337,Daniela Huamán,Consumidor,  PUNO ,Sierra,2022-02-18,daniela.huamán337@correo.pe
+C0372,Carlos Rojas,Pequeña Empresa,Chiclayo,Costa,2024-03-10,carlos.rojas372@correo.pe
+C0286,Ana Ríos,Corporativo,Lima,Costa,2021-03-16,ana.ríos286@correo.pe
+C0463,Diego García,Pequeña Empresa,Tarapoto,Selva,2023-04-09,diego.garcía463@correo.pe
+C0550,Valeria Torres,Consumidor,Ica,Costa,2021-10-04,valeria.torres550@correo.pe
+C0041,Carla Rojas,Consumidor,Cusco,Sierra,2024-01-17,carla.rojas41@correo.pe
+C0149,Carlos Vargas,Consumidor,Cajamarca,Sierra,2023-06-23,carlos.vargas149@correo.pe
+C0560,Daniela García,Consumidor,Chiclayo,Costa,2023-02-08,daniela.garcía560@correo.pe
+C0500,Diego Ríos,Consumidor,Arequipa,Sierra,2021-05-13,diego.ríos500@correo.pe
+C0153,Lucía Castillo,Consumidor,Lima,Costa,2023-03-02,lucía.castillo153@correo.pe
+C0063,Jorge Torres,Pequeña Empresa,Cusco,Sierra,2022-08-25,jorge.torres63@correo.pe
+C0489,Carla Vargas,Corporativo,Tarapoto,Selva,2023-05-22,carla.vargas489@correo.pe
+C0112,Carla Quispe,Consumidor,Iquitos,Selva,2023-02-17,carla.quispe112@correo.pe
+C0346,Diego Salazar,Pequeña Empresa,Puno,Sierra,2021-11-08,diego.salazar346@correo.pe
+C0151,Carla Paredes,Corporativo,Cajamarca,Sierra,2021-01-02,carla.paredes151@correo.pe
+C0074,Rosa Vargas,Corporativo,Chiclayo,Costa,2023-03-31,rosa.vargas74@correo.pe
+C0031,Jorge Paredes,Consumidor,Iquitos,Selva,2022-06-25,jorge.paredes31@correo.pe
+C0028,Lucía García,Consumidor,Arequipa,Sierra,2021-01-11,lucía.garcía28@correo.pe
+C0559,Sofía Ríos,Corporativo,Chiclayo,Costa,2022-06-30,sofía.ríos559@correo.pe
+C0072,Sofía Huamán,Pequeña Empresa,Huancayo,Sierra,2022-10-13,sofía.huamán72@correo.pe
+C0497,María Vargas,Consumidor,Pucallpa,Selva,2023-08-02,maría.vargas497@correo.pe
+C0556,Carla Salazar,Corporativo,Pucallpa,Selva,2022-06-20,carla.salazar556@correo.pe
+C0200,Daniela Vargas,Consumidor,Arequipa,Sierra,2021-04-22,daniela.vargas200@correo.pe
+C0506,Pedro Huamán,Corporativo,  PIURA ,Costa,2023-01-05,pedro.huamán506@correo.pe
+C0215,Raúl Mendoza,Corporativo,Pucallpa,Selva,2021-04-05,raúl.mendoza215@correo.pe
+C0066,Rosa Rojas,Pequeña Empresa,Chiclayo,Costa,2022-11-16,rosa.rojas66@correo.pe
+C0180,Sofía Ramos,,  LIMA ,Costa,2021-09-26,sofía.ramos180@correo.pe
+C0220,Diego García,Corporativo,Iquitos,Selva,2023-11-09,diego.garcía220@correo.pe
+C0061,Valeria García,Corporativo,Cajamarca,Sierra,2021-11-13,valeria.garcía61@correo.pe
+C0322,Raúl Chávez,Corporativo,Iquitos,Selva,2023-08-17,raúl.chávez322@correo.pe
+C0557,Carlos Rojas,Pequeña Empresa,Puno,Sierra,2021-09-15,carlos.rojas557@correo.pe
+C0065,Lucía Mendoza,Pequeña Empresa,Tarapoto,Selva,2022-12-23,lucía.mendoza65@correo.pe
+C0364,Diego Huamán,Consumidor,Chiclayo,Costa,2021-03-07,diego.huamán364@correo.pe
+C0019,Carla Paredes,Corporativo,Iquitos,Selva,2024-04-15,carla.paredes19@correo.pe
+C0424,José Salazar,Pequeña Empresa,Puno,Sierra,2021-06-24,josé.salazar424@correo.pe
+C0501,Raúl Chávez,Consumidor,Trujillo,Costa,2023-03-06,raúl.chávez501@correo.pe
+C0343,Jorge Vargas,Consumidor,Piura,Costa,2024-02-08,jorge.vargas343@correo.pe
+C0119,José Castillo,Corporativo,Tarapoto,Selva,2022-08-31,josé.castillo119@correo.pe
+C0246,Carlos Salazar,Pequeña Empresa,Cajamarca,Sierra,2022-05-22,carlos.salazar246@correo.pe
+C0305,Pedro Chávez,Corporativo,Iquitos,Selva,2021-03-01,pedro.chávez305@correo.pe
+C0021,Raúl Huamán,Corporativo,Lima,Costa,2022-09-14,raúl.huamán21@correo.pe
+C0470,Pedro Chávez,Pequeña Empresa,Trujillo,Costa,2022-08-28,
+C0442,Rosa García,Corporativo,Chiclayo,Costa,2022-06-22,rosa.garcía442@correo.pe
+C0193,José Paredes,Consumidor,Cajamarca,Sierra,2023-11-28,josé.paredes193@correo.pe
+C0541,Daniela Torres,Consumidor,Cajamarca,Sierra,2022-11-07,daniela.torres541@correo.pe
+C0248,Luis Torres,Pequeña Empresa,Lima,Costa,2024-04-14,luis.torres248@correo.pe
+C0177,Ana Ramos,Consumidor,Pucallpa,Selva,2022-08-04,ana.ramos177@correo.pe
+C0137,Rosa Huamán,Pequeña Empresa,Arequipa,Sierra,2023-05-25,rosa.huamán137@correo.pe
+C0336,Rosa Vargas,Consumidor,Lima,Costa,2021-08-19,rosa.vargas336@correo.pe
+C0435,Carlos Chávez,Pequeña Empresa,Cusco,Sierra,2021-12-12,carlos.chávez435@correo.pe
+C0540,Daniela Rojas,Corporativo,Huancayo,Sierra,2021-09-09,daniela.rojas540@correo.pe
+C0053,Raúl Mendoza,Pequeña Empresa,Iquitos,Selva,2022-12-30,raúl.mendoza53@correo.pe
+C0393,Pedro Paredes,Pequeña Empresa,Huancayo,Sierra,2021-10-08,pedro.paredes393@correo.pe
+C0270,María Castillo,Consumidor,Lima,Costa,2021-12-16,maría.castillo270@correo.pe
+C0526,Lucía Paredes,Corporativo,Ica,Costa,2022-02-12,lucía.paredes526@correo.pe
+C0545,Raúl Rojas,Pequeña Empresa,Piura,Costa,2021-03-31,raúl.rojas545@correo.pe
+C0106,Rosa García,Corporativo,Lima,Costa,2021-01-15,rosa.garcía106@correo.pe
+C0482,Valeria Ramos,Corporativo,Cajamarca,Sierra,2024-01-06,valeria.ramos482@correo.pe
+C0553,Daniela Ramos,Consumidor,Cajamarca,Sierra,2023-02-02,daniela.ramos553@correo.pe
+C0475,Lucía Huamán,Pequeña Empresa,Piura,Costa,2022-09-26,lucía.huamán475@correo.pe
+C0338,Daniela Huamán,Corporativo,Pucallpa,Selva,2023-07-14,daniela.huamán338@correo.pe
+C0476,Jorge Ramos,Corporativo,Cusco,Sierra,2022-10-05,jorge.ramos476@correo.pe
+C0590,Jorge Ramos,Pequeña Empresa,Pucallpa,Selva,2023-03-15,jorge.ramos590@correo.pe
+C0503,Raúl Quispe,Pequeña Empresa,Puno,Sierra,2021-11-01,raúl.quispe503@correo.pe
+C0185,Ana Quispe,Consumidor,Iquitos,Selva,2022-09-26,ana.quispe185@correo.pe
+C0361,Miguel García,Pequeña Empresa,Tarapoto,Selva,2022-09-24,miguel.garcía361@correo.pe
+C0026,Pedro Huamán,Corporativo,Huancayo,Sierra,2021-12-24,pedro.huamán26@correo.pe
+C0088,Daniela Vargas,Consumidor,Tarapoto,Selva,2023-09-14,daniela.vargas88@correo.pe
+C0154,María Torres,Consumidor,Chiclayo,Costa,2024-02-06,maría.torres154@correo.pe
+C0266,Raúl Huamán,Corporativo,  HUANCAYO ,Sierra,2023-04-23,raúl.huamán266@correo.pe
+C0059,José Vargas,Corporativo,Chiclayo,Costa,2024-02-25,josé.vargas59@correo.pe
+C0098,Pedro Castillo,Consumidor,Ica,Costa,2022-01-22,pedro.castillo98@correo.pe
+C0488,Lucía Vargas,Consumidor,Puno,Sierra,2022-11-12,lucía.vargas488@correo.pe
+C0401,Valeria Salazar,Corporativo,Tarapoto,Selva,2023-02-21,valeria.salazar401@correo.pe
+C0563,Jorge Vargas,Pequeña Empresa,Arequipa,Sierra,2023-09-04,jorge.vargas563@correo.pe
+C0134,Raúl Quispe,Corporativo,Piura,Costa,2023-07-09,raúl.quispe134@correo.pe
+C0217,Raúl Torres,Pequeña Empresa,Trujillo,Costa,2022-06-07,raúl.torres217@correo.pe
+C0231,Rosa García,Pequeña Empresa,Cajamarca,Sierra,2021-12-06,rosa.garcía231@correo.pe
+C0176,Carla García,Pequeña Empresa,Iquitos,Selva,2022-10-29,carla.garcía176@correo.pe
+C0263,Ana Paredes,Pequeña Empresa,Chiclayo,Costa,2021-11-18,ana.paredes263@correo.pe
+C0483,María Salazar,Consumidor,Tarapoto,Selva,2024-02-20,maría.salazar483@correo.pe
+C0334,María Paredes,Consumidor,Ica,Costa,2023-06-27,maría.paredes334@correo.pe
+C0328,Diego Castillo,Consumidor,Arequipa,Sierra,2022-11-22,diego.castillo328@correo.pe
+C0356,María Paredes,Corporativo,Iquitos,Selva,2021-08-19,maría.paredes356@correo.pe
+C0035,Daniela Chávez,Corporativo,Huancayo,Sierra,2021-03-19,daniela.chávez35@correo.pe
+C0121,Valeria Rojas,Pequeña Empresa,Trujillo,Costa,2022-11-18,valeria.rojas121@correo.pe
+C0554,Raúl Ramos,Corporativo,Arequipa,Sierra,2023-03-31,raúl.ramos554@correo.pe
+C0542,Carla Quispe,Corporativo,Ica,Costa,2022-09-30,carla.quispe542@correo.pe
+C0362,Ana Flores,Corporativo,Piura,Costa,2022-06-23,ana.flores362@correo.pe
+C0366,Luis Paredes,Corporativo,Chiclayo,Costa,2023-08-01,luis.paredes366@correo.pe
+C0245,Sofía Salazar,Corporativo,Tarapoto,Selva,2022-08-09,sofía.salazar245@correo.pe
+C0222,Valeria Ríos,Consumidor,Huancayo,Sierra,2022-09-17,valeria.ríos222@correo.pe
+C0564,Rosa Quispe,Pequeña Empresa,Ica,Costa,2021-02-14,rosa.quispe564@correo.pe
+C0478,Sofía Paredes,Pequeña Empresa,Tarapoto,Selva,2024-01-07,sofía.paredes478@correo.pe
+C0267,Lucía Ríos,Corporativo,Puno,Sierra,2023-04-22,lucía.ríos267@correo.pe
+C0327,Jorge Salazar,Corporativo,Chiclayo,Costa,2021-04-06,jorge.salazar327@correo.pe
+C0330,Jorge Ramos,Pequeña Empresa,  IQUITOS ,Selva,2023-07-04,jorge.ramos330@correo.pe
+C0043,María Ríos,Pequeña Empresa,  CUSCO ,Sierra,2022-01-03,maría.ríos43@correo.pe
+C0577,Jorge Salazar,Pequeña Empresa,Tarapoto,Selva,2021-02-21,jorge.salazar577@correo.pe
+C0325,Miguel García,Corporativo,Arequipa,Sierra,2023-10-12,miguel.garcía325@correo.pe
+C0402,Lucía Huamán,Pequeña Empresa,Arequipa,Sierra,2022-05-09,lucía.huamán402@correo.pe
+C0326,José Quispe,Corporativo,Ica,Costa,2023-09-06,josé.quispe326@correo.pe
+C0136,Miguel Torres,Consumidor,Trujillo,Costa,2023-06-10,miguel.torres136@correo.pe
+C0331,Sofía Salazar,Pequeña Empresa,Huancayo,Sierra,2022-06-24,sofía.salazar331@correo.pe
+C0152,Daniela Vargas,Consumidor,Chiclayo,Costa,2021-11-05,daniela.vargas152@correo.pe
+C0004,María Salazar,Consumidor,Puno,Sierra,2022-11-29,maría.salazar4@correo.pe
+C0382,María Quispe,Pequeña Empresa,Tarapoto,Selva,2022-01-21,maría.quispe382@correo.pe
+C0001,Jorge García,Corporativo,Chiclayo,Costa,2024-02-14,jorge.garcía1@correo.pe
+C0283,Valeria Rojas,Pequeña Empresa,Tarapoto,Selva,2023-03-18,valeria.rojas283@correo.pe
+C0340,Luis Mendoza,Corporativo,Iquitos,Selva,2023-02-07,luis.mendoza340@correo.pe
+C0247,Carlos Torres,Pequeña Empresa,  IQUITOS ,Selva,2024-03-16,carlos.torres247@correo.pe
+C0562,Diego Flores,Corporativo,  TRUJILLO ,Costa,2023-02-15,diego.flores562@correo.pe
+C0355,Sofía García,Pequeña Empresa,Tarapoto,Selva,2021-04-19,sofía.garcía355@correo.pe
+C0585,Valeria Ramos,Corporativo,Huancayo,Sierra,2022-06-12,valeria.ramos585@correo.pe
+C0067,Sofía Quispe,Consumidor,Cajamarca,Sierra,2021-03-18,sofía.quispe67@correo.pe
+C0087,José Salazar,Corporativo,Ica,Costa,2023-05-17,josé.salazar87@correo.pe
+C0057,Jorge Vargas,Consumidor,Cajamarca,Sierra,2023-11-29,jorge.vargas57@correo.pe
+C0375,Lucía Rojas,Pequeña Empresa,Arequipa,Sierra,2022-06-29,lucía.rojas375@correo.pe
+C0015,Ana Flores,Corporativo,Piura,Costa,2021-01-01,ana.flores15@correo.pe
+C0299,Valeria Rojas,Corporativo,Iquitos,Selva,2023-07-04,valeria.rojas299@correo.pe
+C0425,Rosa García,Pequeña Empresa,Cajamarca,Sierra,2023-12-06,rosa.garcía425@correo.pe
+C0095,Ana Flores,,Cusco,Sierra,2023-03-14,ana.flores95@correo.pe
+C0600,Rosa Chávez,Pequeña Empresa,Tarapoto,Selva,2023-05-19,rosa.chávez600@correo.pe
+C0296,Jorge Ramos,Consumidor,Chiclayo,Costa,2024-02-10,jorge.ramos296@correo.pe
+C0198,Diego Castillo,Pequeña Empresa,Cusco,Sierra,2021-02-21,diego.castillo198@correo.pe
+C0123,Lucía Torres,Corporativo,Arequipa,Sierra,2021-12-14,lucía.torres123@correo.pe
+C0277,Carla Paredes,Corporativo,Huancayo,Sierra,2024-02-02,carla.paredes277@correo.pe
+C0422,Jorge Ríos,Pequeña Empresa,Cusco,Sierra,2021-12-08,jorge.ríos422@correo.pe
+C0552,Luis Castillo,Corporativo,Pucallpa,Selva,2022-04-19,luis.castillo552@correo.pe
+C0202,Valeria Salazar,Pequeña Empresa,Piura,Costa,2021-03-09,valeria.salazar202@correo.pe
+C0105,Luis Ríos,Pequeña Empresa,Pucallpa,Selva,2022-01-25,luis.ríos105@correo.pe
+C0538,Jorge Vargas,Consumidor,Pucallpa,Selva,2021-04-03,jorge.vargas538@correo.pe
+C0581,Carlos Quispe,Corporativo,Chiclayo,Costa,2022-11-20,carlos.quispe581@correo.pe
+C0580,José Ramos,Corporativo,Trujillo,Costa,2022-06-18,josé.ramos580@correo.pe
+C0432,Raúl Ríos,Pequeña Empresa,Chiclayo,Costa,2022-06-24,raúl.ríos432@correo.pe
+C0579,Carla Huamán,Corporativo,Cusco,Sierra,2021-10-05,carla.huamán579@correo.pe
+C0373,Ana Quispe,Corporativo,Ica,Costa,2021-11-14,ana.quispe373@correo.pe
+C0125,Diego Salazar,Pequeña Empresa,Cajamarca,Sierra,2024-01-01,diego.salazar125@correo.pe
+C0438,Pedro Huamán,Pequeña Empresa,Ica,Costa,2023-09-30,pedro.huamán438@correo.pe
+C0116,Carla Quispe,Corporativo,Lima,Costa,2023-12-17,carla.quispe116@correo.pe
+C0211,Jorge Flores,Pequeña Empresa,Chiclayo,Costa,2022-07-12,jorge.flores211@correo.pe
+C0082,Pedro Rojas,Consumidor,Piura,Costa,2021-04-20,pedro.rojas82@correo.pe
+C0092,Luis Salazar,Corporativo,Cajamarca,Sierra,2024-02-22,luis.salazar92@correo.pe
+C0159,Rosa Castillo,Pequeña Empresa,Cusco,Sierra,2023-03-16,rosa.castillo159@correo.pe
+C0081,Rosa Paredes,Consumidor,Iquitos,Selva,2022-09-06,rosa.paredes81@correo.pe
+C0443,Jorge Salazar,Pequeña Empresa,Lima,Costa,2022-09-10,jorge.salazar443@correo.pe
+C0523,Daniela Mendoza,Corporativo,Cajamarca,Sierra,2022-12-05,daniela.mendoza523@correo.pe
+C0594,María Huamán,Pequeña Empresa,Pucallpa,Selva,2021-04-03,maría.huamán594@correo.pe
+C0547,Carlos Huamán,Pequeña Empresa,Cusco,Sierra,2023-03-06,carlos.huamán547@correo.pe
+C0040,Ana Mendoza,Consumidor,Pucallpa,Selva,2024-03-30,ana.mendoza40@correo.pe
+C0232,Pedro Flores,Consumidor,Cajamarca,Sierra,2022-08-10,pedro.flores232@correo.pe
+C0103,Carlos Flores,Consumidor,Pucallpa,Selva,2022-06-07,carlos.flores103@correo.pe
+C0243,Rosa Paredes,Pequeña Empresa,Arequipa,Sierra,2021-03-01,rosa.paredes243@correo.pe
+C0354,Daniela Salazar,Pequeña Empresa,Chiclayo,Costa,2024-02-28,daniela.salazar354@correo.pe
+C0350,Diego Ramos,Corporativo,Tarapoto,Selva,2021-10-07,diego.ramos350@correo.pe
+C0512,Rosa Flores,Pequeña Empresa,Pucallpa,Selva,2023-05-04,rosa.flores512@correo.pe
+C0262,María Rojas,Consumidor,Huancayo,Sierra,2021-10-28,maría.rojas262@correo.pe
+C0113,Carlos Flores,Pequeña Empresa,Pucallpa,Selva,2021-02-13,carlos.flores113@correo.pe
+C0169,Lucía Salazar,Consumidor,Iquitos,Selva,2022-09-10,lucía.salazar169@correo.pe
+C0238,Lucía Castillo,Corporativo,Cajamarca,Sierra,2021-07-19,lucía.castillo238@correo.pe
+C0505,Lucía Torres,Corporativo,Piura,Costa,2021-09-27,lucía.torres505@correo.pe
+C0368,Luis Flores,Consumidor,Iquitos,Selva,2021-07-16,luis.flores368@correo.pe
+C0301,Miguel Salazar,Corporativo,Lima,Costa,2021-07-29,miguel.salazar301@correo.pe
+C0150,Pedro Chávez,Pequeña Empresa,  TARAPOTO ,Selva,2023-03-25,pedro.chávez150@correo.pe
+C0376,Raúl Chávez,Corporativo,Pucallpa,Selva,2024-04-08,raúl.chávez376@correo.pe

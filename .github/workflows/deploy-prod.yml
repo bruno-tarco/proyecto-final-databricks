@@ -1,0 +1,172 @@
+name: CI/CD Retail Medallion (dev -> prod)
+
+# Se dispara al hacer push a main con cambios en el ETL, o manualmente desde la pestaña Actions.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "proceso/**"
+      - ".github/workflows/deploy-prod.yml"
+  workflow_dispatch:
+    inputs:
+      reiniciar:
+        description: "¿Recrear catálogo y rutas físicas en prod?"
+        type: choice
+        options: ["false", "true"]
+        default: "false"
+
+env:
+  # ------------- AJUSTA ESTOS VALORES A TU AMBIENTE DE PRODUCCIÓN -------------
+  STORAGE_PROD: "adlsretailprodbt2026"          # cuenta ADLS Gen2 de prod
+  CATALOGO_PROD: "catalog_retail_prod"    # catálogo Unity Catalog de prod
+  CREDENCIAL: "cred_retail_prod"            # storage credential (Managed Identity)
+  CLUSTER_NAME: "cluster_retail_prod"     # ÚNICO cluster encendido (en prod)
+  WORKFLOW_NAME: "WF_RETAIL_MEDALLION"
+  DEST_BASE: "/Workspace/Shared/retail_medallion/proceso"
+  EXPORTAR_SQL: "false"                   # "true" si configuraste Azure SQL + Key Vault
+  SECRET_SCOPE: "kv-retail"
+  GRUPO_ANALISTAS: "analistas_retail"
+  GRUPO_INGENIEROS: "ingenieros_retail"
+  # ---------------------------------------------------------------------------
+  DATABRICKS_HOST: ${{ secrets.DATABRICKS_HOST_PROD }}
+  DATABRICKS_TOKEN: ${{ secrets.DATABRICKS_TOKEN_PROD }}
+
+jobs:
+  # ===================== CI: validación del código =====================
+  validar:
+    name: CI · Validar notebooks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Validar sintaxis Python de los notebooks
+        run: |
+          for f in proceso/*.py; do
+            python -m py_compile "$f" && echo "$f"
+          done
+
+      - name: Verificar formato de notebook Databricks
+        run: |
+          for f in proceso/*.py; do
+            head -1 "$f" | grep -q "# Databricks notebook source" \
+              || { echo "$f no es un notebook Databricks"; exit 1; }
+          done
+          echo "Todos los archivos de proceso/ son notebooks válidos"
+
+  # ===================== CD: despliegue + ejecución en prod =====================
+  desplegar:
+    name: CD · Desplegar y ejecutar en producción
+    needs: validar
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Instalar jq
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq jq
+
+      - name: Desplegar notebooks de proceso/ al workspace de prod
+        run: |
+          curl -sf -X POST -H "Authorization: Bearer $DATABRICKS_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{\"path\":\"$DEST_BASE\"}" "$DATABRICKS_HOST/api/2.0/workspace/mkdirs"
+
+          for file in proceso/*.py; do
+            name=$(basename "$file" .py)
+            content=$(base64 -w 0 "$file")
+            jq -n --arg path "$DEST_BASE/$name" --arg content "$content" \
+              '{path:$path, format:"SOURCE", language:"PYTHON", overwrite:true, content:$content}' > payload.json
+            status=$(curl -s -o resp.json -w "%{http_code}" -X POST \
+              -H "Authorization: Bearer $DATABRICKS_TOKEN" -H "Content-Type: application/json" \
+              -d @payload.json "$DATABRICKS_HOST/api/2.0/workspace/import")
+            if [ "$status" != "200" ]; then echo "$name: $(cat resp.json)"; exit 1; fi
+            echo "Desplegado: $DEST_BASE/$name"
+          done
+          rm -f payload.json resp.json
+
+      - name: Obtener cluster de producción y encenderlo si está apagado
+        run: |
+          clusters=$(curl -sf -H "Authorization: Bearer $DATABRICKS_TOKEN" "$DATABRICKS_HOST/api/2.0/clusters/list")
+          CLUSTER_ID=$(echo "$clusters" | jq -r --arg n "$CLUSTER_NAME" '.clusters[]? | select(.cluster_name==$n) | .cluster_id' | head -1)
+          if [ -z "$CLUSTER_ID" ]; then
+            echo "No existe el cluster $CLUSTER_NAME. Disponibles:"; echo "$clusters" | jq -r '.clusters[]?.cluster_name'; exit 1
+          fi
+          echo "CLUSTER_ID=$CLUSTER_ID" >> $GITHUB_ENV
+          state=$(curl -sf -H "Authorization: Bearer $DATABRICKS_TOKEN" "$DATABRICKS_HOST/api/2.0/clusters/get?cluster_id=$CLUSTER_ID" | jq -r .state)
+          echo "Cluster $CLUSTER_NAME ($CLUSTER_ID) estado: $state"
+          if [ "$state" = "TERMINATED" ]; then
+            curl -sf -X POST -H "Authorization: Bearer $DATABRICKS_TOKEN" \
+              -d "{\"cluster_id\":\"$CLUSTER_ID\"}" "$DATABRICKS_HOST/api/2.0/clusters/start"
+            echo "Encendiendo cluster..."
+          fi
+
+      - name: Crear o actualizar el workflow (job) en prod
+        run: |
+          REINICIAR="${{ github.event.inputs.reiniciar || 'false' }}"
+          task() {  # task_key notebook depends_on(json) params(json)
+            jq -n --arg k "$1" --arg nb "$DEST_BASE/$2" --argjson dep "$3" --argjson p "$4" --arg c "$CLUSTER_ID" \
+              '{task_key:$k, notebook_task:{notebook_path:$nb, source:"WORKSPACE", base_parameters:$p},
+                existing_cluster_id:$c, depends_on:$dep, timeout_seconds:3600, max_retries:1}'
+          }
+          BASE=$(jq -n --arg s "$STORAGE_PROD" --arg c "$CATALOGO_PROD" '{storageName:$s, catalogo:$c}')
+          CAT=$(jq -n --arg c "$CATALOGO_PROD" '{catalogo:$c}')
+
+          T1=$(task preparacion_ambiente 01_preparacion_ambiente '[]' \
+                 "$(echo "$BASE" | jq --arg cr "$CREDENCIAL" --arg r "$REINICIAR" '. + {credencial:$cr, reiniciar:$r}')")
+          T2=$(task ingest_clientes  02_ingest_clientes  '[{"task_key":"preparacion_ambiente"}]' "$(echo "$BASE" | jq '. + {container:"raw", archivo:"clientes.csv"}')")
+          T3=$(task ingest_productos 02_ingest_productos '[{"task_key":"preparacion_ambiente"}]' "$(echo "$BASE" | jq '. + {container:"raw", archivo:"productos.json"}')")
+          T4=$(task ingest_ventas    02_ingest_ventas    '[{"task_key":"preparacion_ambiente"}]' "$(echo "$BASE" | jq '. + {container:"raw", archivo:"ventas.csv"}')")
+          T5=$(task transform 03_transform '[{"task_key":"ingest_clientes"},{"task_key":"ingest_productos"},{"task_key":"ingest_ventas"}]' \
+                 "$(echo "$CAT" | jq '. + {esquema_source:"bronze", esquema_sink:"silver"}')")
+          T6=$(task load 04_load '[{"task_key":"transform"}]' "$(echo "$CAT" | jq '. + {esquema_source:"silver", esquema_sink:"golden"}')")
+          T7=$(task export_azure_sql 05_export_azure_sql '[{"task_key":"load"}]' \
+                 "$(echo "$CAT" | jq --arg h "$EXPORTAR_SQL" --arg s "$SECRET_SCOPE" '. + {habilitado:$h, secret_scope:$s}')")
+          T8=$(task grants 06_grants '[{"task_key":"load"}]' \
+                 "$(echo "$CAT" | jq --arg a "$GRUPO_ANALISTAS" --arg i "$GRUPO_INGENIEROS" '. + {grupo_analistas:$a, grupo_ingenieros:$i}')")
+
+          jq -n --arg name "$WORKFLOW_NAME" --argjson tasks "[$T1,$T2,$T3,$T4,$T5,$T6,$T7,$T8]" '{
+            name: $name, format: "MULTI_TASK", max_concurrent_runs: 1, timeout_seconds: 7200, tasks: $tasks,
+            schedule: {quartz_cron_expression: "0 0 7 * * ?", timezone_id: "America/Lima", pause_status: "PAUSED"},
+            tags: {environment: "prod", deployed_by: "github_actions", project: "retail_medallion"}
+          }' > job.json
+
+          JOB_ID=$(curl -sf -H "Authorization: Bearer $DATABRICKS_TOKEN" \
+            "$DATABRICKS_HOST/api/2.1/jobs/list?name=$WORKFLOW_NAME" | jq -r '.jobs[0].job_id // empty')
+
+          if [ -n "$JOB_ID" ]; then
+            jq --argjson id "$JOB_ID" '{job_id:$id, new_settings:.}' job.json > reset.json
+            curl -sf -X POST -H "Authorization: Bearer $DATABRICKS_TOKEN" -H "Content-Type: application/json" \
+              -d @reset.json "$DATABRICKS_HOST/api/2.1/jobs/reset" > /dev/null
+            echo "Workflow actualizado (job_id=$JOB_ID)"
+          else
+            JOB_ID=$(curl -sf -X POST -H "Authorization: Bearer $DATABRICKS_TOKEN" -H "Content-Type: application/json" \
+              -d @job.json "$DATABRICKS_HOST/api/2.1/jobs/create" | jq -r .job_id)
+            echo "Workflow creado (job_id=$JOB_ID)"
+          fi
+          echo "JOB_ID=$JOB_ID" >> $GITHUB_ENV
+          jq -r '.tasks[] | "  • \(.task_key) ← \((.depends_on // []) | map(.task_key) | join(", "))"' job.json
+          rm -f job.json reset.json
+
+      - name: Ejecutar workflow y monitorear hasta terminar
+        run: |
+          RUN_ID=$(curl -sf -X POST -H "Authorization: Bearer $DATABRICKS_TOKEN" -H "Content-Type: application/json" \
+            -d "{\"job_id\": $JOB_ID}" "$DATABRICKS_HOST/api/2.1/jobs/run-now" | jq -r .run_id)
+          echo "Run iniciado: $DATABRICKS_HOST/jobs/$JOB_ID/runs/$RUN_ID"
+
+          for i in $(seq 1 90); do   # hasta 45 minutos
+            run=$(curl -sf -H "Authorization: Bearer $DATABRICKS_TOKEN" "$DATABRICKS_HOST/api/2.1/jobs/runs/get?run_id=$RUN_ID")
+            life=$(echo "$run" | jq -r .state.life_cycle_state)
+            result=$(echo "$run" | jq -r '.state.result_state // "-"')
+            echo "[$((i*30))s] $life / $result"
+            echo "$run" | jq -r '.tasks[]? | "    \(.task_key): \(.state.life_cycle_state) \(.state.result_state // "")"'
+            case "$life" in
+              TERMINATED|SKIPPED|INTERNAL_ERROR)
+                if [ "$result" = "SUCCESS" ]; then echo "Workflow completado con éxito"; exit 0; fi
+                echo "Workflow terminó en $life / $result"; exit 1 ;;
+            esac
+            sleep 30
+          done
+          echo "Timeout esperando el workflow"; exit 1
